@@ -247,13 +247,13 @@ WEAPP_EXPORT_PLUGIN_METHOD_SYNC(getVersion, @selector(getVersion))
 
 - (void)GeTuiSdkDidRegisterLiveActivity:(NSString *)sn result:(BOOL)isSuccess error:(NSError *)error {
     NSLog(@"GTSDK>>>GeTuiSdkDidRegisterLiveActivity SN : %@, success: %@, error :%@", sn, @(isSuccess), error);
-    NSDictionary *dic = @{@"success" : @(isSuccess), @"sn": sn?:@"", @"error": error ? [error localizedDescription] : @""};
+    NSDictionary *dic = @{@"result" : @(isSuccess), @"sn": sn?:@"", @"error": error ? [error localizedDescription] : @""};
     [self sendMsg:@"onLiveActivityResult" params:dic];
 }
 
 -(void)GeTuiSdkDidRegisterPushToStartToken:(NSString *)sn result:(BOOL)isSuccess error:(NSError *)error {
     NSLog(@"GTSDK>>>GeTuiSdkDidRegisterPushToStartToken SN : %@, success: %@, error :%@", sn, @(isSuccess), error);
-    NSDictionary *dic = @{@"success" : @(isSuccess), @"sn": sn?:@"", @"error": error ? [error localizedDescription] : @""};
+    NSDictionary *dic = @{@"result" : @(isSuccess), @"sn": sn?:@"", @"error": error ? [error localizedDescription] : @""};
     [self sendMsg:@"onRegisterPushToStartTokenResult" params:dic];
 }
 
