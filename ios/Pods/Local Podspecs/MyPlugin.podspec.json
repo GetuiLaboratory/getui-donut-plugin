@@ -1,0 +1,21 @@
+{
+  "name": "MyPlugin",
+  "version": "1.0.0",
+  "summary": "Summary of MyPlugin",
+  "homepage": "https://your-framework-website.com",
+  "authors": {
+    "Your Name": "your@email.com"
+  },
+  "source": {
+    "git": "https://github.com/your/repo.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "GTSDK": [
+
+    ]
+  }
+}

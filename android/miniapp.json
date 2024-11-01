@@ -1,0 +1,18 @@
+{
+  "toolkitVersion": "0.10.0",
+  "sdkVersion": "1.4.10",
+  "enableVConsole": "open",
+  "appMenuEnable": true,
+  "sdkKey": "0E5V7r1NuM",
+  "sdkKeySecret": "NP1KBZ9pwwnmMeSvLO1MgQ",
+  "packageName": "com.tencent.weauth",
+  "miniModuleId": "wxb55a76dd1460f5ce",
+  "useExtendedSdk": {},
+  "version": "0.0.1",
+  "versionCode": 100,
+  "usePluginSdk": {},
+  "scheme": "__placeholder__",
+  "targetSdkVersion": 29,
+  "privacyPopup": true,
+  "splashscreen": false
+}

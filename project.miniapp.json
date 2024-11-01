@@ -1,0 +1,82 @@
+{
+  "miniVersion": "v2",
+  "name": "多端测试应用",
+  "version": "0.0.1",
+  "mini-android": {
+    "miniVersion": "v2",
+    "name": "多端测试应用",
+    "version": "0.0.1",
+    "versionCode": 100,
+    "projectArchitecture": "multiPlatform",
+    "mini-plugin": {
+      "iosCertificate": {
+        "profile": "",
+        "certificate": ""
+      }
+    },
+    "sdkVersion": "1.4.10",
+    "toolkitVersion": "0.8.0",
+    "useExtendedSdk": {
+      "media": false,
+      "bluetooth": false,
+      "network": false,
+      "scanner": false,
+      "xweb": false,
+      "xwebEmbed": false,
+      "skyline": false,
+      "install": true,
+      "open": true,
+      "test": false
+    },
+    "icons": {},
+    "splashscreen": {},
+    "enableVConsole": "open",
+    "privacy": {
+      "enable": true,
+      "template": ""
+    },
+    "projectPath": "android",
+    "archivePath": "app/src/main/assets/SaaA_embed/",
+    "sdkKey": "0E5V7r1NuM",
+    "sdkKeySecret": "NP1KBZ9pwwnmMeSvLO1MgQ"
+  },
+  "mini-ios": {
+    "loadWhenStart": true,
+    "sdkVersion": "1.4.19",
+    "toolkitVersion": "0.0.9",
+    "useExtendedSdk": {
+      "WeAppOpenFuns": true,
+      "WeAppNetwork": false,
+      "WeAppBluetooth": false,
+      "WeAppMedia": false,
+      "WeAppLBS": false,
+      "WeAppOthers": false
+    },
+    "enableVConsole": "open",
+    "icons": {
+      "mainIcon120": "",
+      "mainIcon180": "",
+      "spotlightIcon80": "",
+      "spotlightIcon120": "",
+      "settingsIcon58": "",
+      "settingsIcon87": "",
+      "notificationIcon40": "",
+      "notificationIcon60": "",
+      "appStore1024": ""
+    },
+    "splashScreen": {
+      "customImage": ""
+    },
+    "privacy": {
+      "enable": false
+    }
+  },
+  "versionCode": 100,
+  "projectArchitecture": "multiPlatform",
+  "mini-plugin": {
+    "iosCertificate": {
+      "profile": "Dev_comceicapp.mobileprovision",
+      "certificate": "Apple Development: wanting Lin (B7RQX2M34G)"
+    }
+  }
+}

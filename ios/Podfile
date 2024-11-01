@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'wxed34e654870cba42' do
+  pod "MyPlugin", :path => "."
+end

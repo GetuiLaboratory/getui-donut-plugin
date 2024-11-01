@@ -1,0 +1,6 @@
+module Pods_wxed34e654870cba42 {
+  umbrella header "Pods-wxed34e654870cba42-umbrella.h"
+
+  export *
+  module * { export * }
+}
