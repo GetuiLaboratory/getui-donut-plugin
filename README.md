@@ -84,7 +84,7 @@ usage() {
    myPlugin.setSilentTime({"beginHour":10,"duration":5})
   //(Android)自定义回执
   myPlugin.sendFeedbackMessage({"taskid":"sddddd","messageid":"ddd","actionid":90002})
-  
+
   	//绑定别名
     myPlugin.bindAlias({
       'alias': 'superman',
@@ -116,9 +116,6 @@ usage() {
       'sn': '0001'
     })
 
-
-
-    
     //获取原生sdk版本号
     let ver = myPlugin.getVersion()
     console.log(ver)
@@ -129,8 +126,8 @@ usage() {
 
 ```js
 const listener = (param) => {
-      console.log('onMiniPluginEvent listener:', param)
-      //监听事件总览：
+      console.log('onMiniPluginEvent listener:', JSON.stringify(param))
+      //IOS 监听事件总览：
 			/*
 			method:onGrantAuthorization
 			param:true 或者 false, 用户是否授权通知
@@ -212,7 +209,44 @@ const listener = (param) => {
 			error:错误描述
 		  sn:序列号，默认是tags内容
 		  
-			*/
+      */
+      
+
+       //ANDROID 监听事件总览：
+       /**
+        * 参考Android api文档:https://docs.getui.com/getui/mobile/android/api/
+        * 
+        * //初始化CID回掉
+        * method: onReceiveClientId
+        * param: "234242"
+        * 
+        * //在现状态回调
+        * method: onReceiveOnlineState
+        * param: true
+        * 
+        * 
+        * //PushManager指令失败与成功回调
+        * method: onReceiveCommandResult
+        * param: {......}
+        * 
+        * 
+        * //通知到达
+        * method: onNotificationMessageArrived
+        * param: {......}
+        * 
+        * 
+        * //通知点击
+        * method: onNotificationMessageClicked
+        * param: {......}
+        * 
+        *
+        * //
+        * method: debugLog
+        * param: "debug下日志"
+        * 
+        * 
+        * 
+        */
     }
 ```
 
