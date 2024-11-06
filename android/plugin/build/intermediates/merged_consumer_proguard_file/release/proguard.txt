@@ -1,0 +1,125 @@
+-keepclassmembers class * {
+    @com.tencent.luggage.wxa.SaaA.plugin.SyncJsApi *;
+    @com.tencent.luggage.wxa.SaaA.plugin.AsyncJsApi *;
+}
+
+-keep class com.getui.gtc.** {*;}
+#不要添加以下注释[当内置了GBD或GWS时,keep GBD/GWS]在官网版本，否则个推主包在依赖此GTC打包时会无法混淆
+#-keep class com.igexin.** {*;}
+#-keep class igexin.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dyc.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dim.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.base.** {*;}
+-keep class com.igexin.base.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dyc.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dim.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.base.** {*;}
+-keep class com.igexin.base.** {*;}
+
+
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in /Users/keith/Library/Android/sdk/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+#个推
+-dontwarn com.igexin.**
+-dontwarn com.huawei.hms.**
+-dontwarn com.meizu.**
+-dontwarn com.xiaomi.push.**
+
+-keep class com.igexin.** { *; }
+-keep class org.json.** { *; }
+-keep class com.huawei.hms.** { *; }
+-keep class com.meizu.** { *; }
+-keep class com.xiaomi.** { *; }
+-keep class org.apache.thrift.** { *; }
+
+
+-keep class com.getui.gtc.** {*;}
+#不要添加以下注释[当内置了GBD或GWS时,keep GBD/GWS]在官网版本，否则个推主包在依赖此GTC打包时会无法混淆
+#-keep class com.igexin.** {*;}
+#-keep class igexin.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dyc.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dim.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.base.** {*;}
+-keep class com.igexin.base.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dyc.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dim.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.base.** {*;}
+-keep class com.igexin.base.** {*;}
+
+
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in /Users/keith/Library/Android/sdk/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+#个推
+-dontwarn com.igexin.**
+-dontwarn com.huawei.hms.**
+-dontwarn com.meizu.**
+-dontwarn com.xiaomi.push.**
+
+-keep class com.igexin.** { *; }
+-keep class org.json.** { *; }
+-keep class com.huawei.hms.** { *; }
+-keep class com.meizu.** { *; }
+-keep class com.xiaomi.** { *; }
+-keep class org.apache.thrift.** { *; }

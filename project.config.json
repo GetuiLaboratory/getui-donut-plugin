@@ -1,11 +1,6 @@
 {
     "compileType": "miniprogram",
-    "libVersion": "2.27.3",
     "miniprogramRoot": "miniprogram/",
-    "packOptions": {
-        "ignore": [],
-        "include": []
-    },
     "setting": {
         "coverView": true,
         "es6": true,
@@ -18,7 +13,8 @@
             "ignore": [],
             "disablePlugins": [],
             "outputPath": ""
-        }
+        },
+        "ignoreUploadUnusedFiles": true
     },
     "condition": {},
     "editorSetting": {
@@ -29,7 +25,12 @@
     "simulatorPluginLibVersion": {
         "wxextd2e17127608c3": "2.27.3"
     },
+    "libVersion": "2.27.3",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
     "appid": "wxdc6591f567d49bb6",
-    "miniappPluginId": "wxed34e654870cba42",
-    "projectArchitecture": "multiPlatform"
+    "projectArchitecture": "multiPlatform",
+    "miniappPluginId": "wxed34e654870cba42"
 }

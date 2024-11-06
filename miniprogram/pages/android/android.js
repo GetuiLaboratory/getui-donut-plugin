@@ -16,10 +16,20 @@ Page({
   },
 
   onLoadPlugin() {
+    const listener = (param) => {
+      console.log('onMiniPluginEvent listener '+JSON.stringify(param))
+      switch(param["method"]){
+          case "onReceiveClientId":
+              this.sdkMethod()
+            break
+      }
+      }
+
     wx.miniapp.loadNativePlugin({
       pluginId: miniAppPluginId,
       success: (plugin) => {
         console.log('load plugin success', plugin)
+        plugin.onMiniPluginEvent(listener)
         this.setData({
           myPlugin: plugin
         })
@@ -36,14 +46,27 @@ Page({
       console.log('plugin is undefined')
       return
     }
-    const ret = myPlugin.mySyncFunc({ a: 'hello', b: [1,2] })
-    console.log('mySyncFunc ret:', ret)
-
-    myPlugin.myAsyncFuncwithCallback({ a: 'hello', b: [1,2] }, (ret) => {
-      console.log('myAsyncFuncwithCallback ret:', ret)
-    })
+    myPlugin.initialize()
+    console.log('initialize')
   },
-
+  sdkMethod(){
+    const { myPlugin } = this.data
+    // myPlugin.setTag({"tags":["a","b","c"],"sn":"1111"})
+    // myPlugin.queryTag({"sn":"ddd"})
+   var id =  myPlugin.getClientid()
+   console.log('plugin getClientid '+id)
+   var version = myPlugin.getVersion()
+   console.log('plugin getVersion '+version)
+  //  myPlugin.turnOffPush()
+  //  myPlugin.turnOnPush()
+   var isPushTurnedOn = myPlugin.isPushTurnedOn()
+   console.log('plugin isPushTurnedOn '+isPushTurnedOn)
+  //  myPlugin. bindAlias({"alias":"12345"})
+  //  myPlugin. unBindAlias({"alias":"12345"})
+  //  myPlugin. setLocalBadge({"badge":2})
+  //  myPlugin.sendFeedbackMessage({"taskid":"dddd",
+  // "messageid":"ddddd",actionid:90002})
+  },
   copyLink() {
     wx.setClipboardData({
       data: 'https://dev.weixin.qq.com/docs/framework/dev/plugin/androidPlugin.html',

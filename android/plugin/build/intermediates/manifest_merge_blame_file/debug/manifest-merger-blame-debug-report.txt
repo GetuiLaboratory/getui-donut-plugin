@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.donut.wxed34e654870cba42"
+4    android:versionName="0.0.1" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml
+9
+10    <application>
+10-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:5:5-10:19
+11        <service
+11-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:6:9-8:15
+12            android:name="com.donut.wxed34e654870cba42.PluginPushService"
+12-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:6:18-51
+13            android:process=":pushservice" />
+13-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:7:13-43
+14        <service android:name="com.donut.wxed34e654870cba42.PluginIntentService" />
+14-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:9:9-56
+14-->/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:9:18-53
+15    </application>
+16
+17</manifest>

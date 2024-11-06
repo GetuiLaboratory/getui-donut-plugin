@@ -1,0 +1,58 @@
+# compiler: R8
+# compiler_version: 2.1.86
+# pg_map_id: e3b8532
+# common_typos_disable
+MainProcessTask -> a:
+    android.content.Intent msgCallback -> a
+    kotlin.jvm.functions.Function1 clientCallback -> b
+    java.lang.String TAG -> c
+    java.lang.String access$getTAG$p(MainProcessTask) -> a
+    void callbackByMainProcess(android.content.Intent) -> a
+    void setClientCallback(kotlin.jvm.functions.Function1) -> a
+MainProcessTask$Creator -> a$a:
+    MainProcessTask createFromParcel(android.os.Parcel) -> a
+    MainProcessTask[] newArray(int) -> a
+MainProcessTask$runInMainProcess$1 -> a$b:
+    MainProcessTask this$0 -> a
+com.donut.wxed34e654870cba42.BuildConfig -> b.a.a.a:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+    java.lang.String PLUGIN_ID -> d
+com.donut.wxed34e654870cba42.PluginIntentService -> com.donut.wxed34e654870cba42.PluginIntentService:
+    com.donut.wxed34e654870cba42.PluginIntentService$Companion Companion -> a
+    MainProcessTask mainProcessTask -> b
+    void access$setMainProcessTask$cp(MainProcessTask) -> a
+com.donut.wxed34e654870cba42.PluginIntentService$Companion -> com.donut.wxed34e654870cba42.PluginIntentService$a:
+    void setMainProcessTask(MainProcessTask) -> a
+com.donut.wxed34e654870cba42.PluginManager -> b.a.a.b:
+    java.lang.String TAG -> a
+    java.lang.String access$getTAG$p(com.donut.wxed34e654870cba42.PluginManager) -> a
+    void access$sendMiniPluginEvent(com.donut.wxed34e654870cba42.PluginManager,java.util.HashMap) -> a
+    void bindAlias(org.json.JSONObject,android.app.Activity) -> a
+    void setDebugLogger(com.igexin.sdk.IUserLoggerInterface,android.app.Activity) -> a
+    java.util.Map toMap(java.lang.Object) -> a
+    java.lang.String getClientid(org.json.JSONObject,android.app.Activity) -> b
+    java.lang.String getVersion(org.json.JSONObject,android.app.Activity) -> c
+    void initialize(org.json.JSONObject,android.app.Activity) -> d
+    boolean isPushTurnedOn(org.json.JSONObject,android.app.Activity) -> e
+    void queryTag(org.json.JSONObject,android.app.Activity) -> f
+    void sendFeedbackMessage(org.json.JSONObject,android.app.Activity) -> g
+    void setBadgeNum(org.json.JSONObject,android.app.Activity) -> h
+    void setHeartbeatInterval(org.json.JSONObject,android.app.Activity) -> i
+    void setSilentTime(org.json.JSONObject,android.app.Activity) -> j
+    void setTag(org.json.JSONObject,android.app.Activity) -> k
+    void turnOffPush(org.json.JSONObject,android.app.Activity) -> l
+    void turnOnPush(org.json.JSONObject,android.app.Activity) -> m
+    void unBindAlias(org.json.JSONObject,android.app.Activity) -> n
+com.donut.wxed34e654870cba42.PluginManager$1 -> b.a.a.b$a:
+    com.donut.wxed34e654870cba42.PluginManager this$0 -> a
+    void invoke(android.content.Intent) -> a
+com.donut.wxed34e654870cba42.PluginManager$setTag$1 -> b.a.a.b$b:
+    java.util.List $array -> a
+    void invoke(java.lang.String) -> a
+com.donut.wxed34e654870cba42.PushNativePluginApplication -> b.a.a.c:
+    java.lang.String TAG -> a
+    java.lang.String access$getTAG$p(com.donut.wxed34e654870cba42.PushNativePluginApplication) -> a
+com.donut.wxed34e654870cba42.PushNativePluginApplication$onCreate$1 -> b.a.a.c$a:
+    com.donut.wxed34e654870cba42.PushNativePluginApplication this$0 -> a

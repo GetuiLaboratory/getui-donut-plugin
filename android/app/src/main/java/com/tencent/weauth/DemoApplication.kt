@@ -7,6 +7,18 @@ import com.tencent.luggage.wxa.SaaA.api.SaaAApi
 import com.tencent.luggage.wxa.SaaA.api.SaaAApiConfig
 
 class DemoApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        try {
+            val api = SaaAApi.Factory.getApi()
+            if (api != null) {
+                // 如果您的插件需要使用 application 生命周期钩子，请把以下注释打开且保证 debugSaaAVersion >= 1.0.7
+                api.runWhenApplicationOnCreate(this)
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
 
     companion object {
         private const val TAG = "DemoApplication"

@@ -1,0 +1,27 @@
+-keep class com.getui.gtc.** {*;}
+#不要添加以下注释[当内置了GBD或GWS时,keep GBD/GWS]在官网版本，否则个推主包在依赖此GTC打包时会无法混淆
+#-keep class com.igexin.** {*;}
+#-keep class igexin.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dyc.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dim.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.base.** {*;}
+-keep class com.igexin.base.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dyc.** {*;}
+
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.dim.** {*;}
+
+-keepattributes Signature, InnerClasses, EnclosingMethod, Exceptions, *Annotation*
+-keep class com.getui.gtc.base.** {*;}
+-keep class com.igexin.base.** {*;}

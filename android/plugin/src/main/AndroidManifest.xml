@@ -3,8 +3,10 @@
 
 
     <application >
-
-
+        <service android:name=".PluginPushService"
+            android:process=":pushservice"
+            />
+        <service android:name=".PluginIntentService" />
     </application>
 
 </manifest>

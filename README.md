@@ -37,23 +37,53 @@ usage() {
     const {
       myPlugin
     } = this.data;
-    
-		//需要第一时间调用startSDK，避免通知处理不及时
-    myPlugin.startSdk({
-      'appId': 'xXmjbbab3b5F1m7wAYZoG2',
-      'appKey': 'BZF4dANEYr8dwLhj6lRfx2',
-      'appSecret': 'yXRS5zRxDt8WhMW8DD8W05'
-    })
-	
-		//模式切换， mode入参0 或 1
+    const deviceInfo = wx.getDeviceInfo()
+
+    //需要第一时间调用startSDK，避免通知处理不及时
+    if ("android" === deviceInfo.platform) {
+      myPlugin.initialize()
+    }else{
+      myPlugin.startSdk({
+        'appId': 'xXmjbbab3b5F1m7wAYZoG2',
+        'appKey': 'BZF4dANEYr8dwLhj6lRfx2',
+        'appSecret': 'yXRS5zRxDt8WhMW8DD8W05'
+      })
+    }
+   
+		//(IOS)模式切换， mode入参0 或 1
     myPlugin.setPushMode({
       'mode': 1
     })
 
-  	//后台模式，入参0 或 1
+  	//(IOS)后台模式，入参0 或 1
     myPlugin.runBackgroundEnable({
       'enable': 1
     }) 
+
+   //(IOS)同步服务端角标
+    myPlugin.setBadge({
+      'badge': 3
+    })
+
+    //(IOS)注册ActivityToken PushToStartToken
+    myPlugin.registerPushToStartToken({
+      'attribute': 'MyAttribute',
+      'token': 'token2',
+      'sn': '0002'
+    })
+
+    //(Android) 关闭推送
+   myPlugin.turnOffPush()
+    // (Android) 打开推送
+   myPlugin.turnOnPush()
+   // (Android)推送状态 
+   myPlugin.isPushTurnedOn()
+   // (Android)推送状态 
+   myPlugin.queryTag({"an":"121212"})
+   // (Android)静默时段
+   myPlugin.setSilentTime({"beginHour":10,"duration":5})
+  //(Android)自定义回执
+  myPlugin.sendFeedbackMessage({"taskid":"sddddd","messageid":"ddd","actionid":90002})
   
   	//绑定别名
     myPlugin.bindAlias({
@@ -64,19 +94,16 @@ usage() {
     //解绑别名
     myPlugin.unbindAlias({
       'alias': 'superman',
-      'sn': '0001'
+      'sn': '0001',
+      'isSelf': true//(Android参数,可空,默认true) 如果是true，只对当前cid做解绑；如果是false，对所有绑定该别名的cid列表做解绑.
     })
     
     //设置标签
     myPlugin.setTags({
-      'tags': ['t1', 't2', 't2']
+      'tags': ['t1', 't2', 't2'],
+      'sn': '0001'//(Android参数,必填)
     })
 
-    //同步服务端角标
-    myPlugin.setBadge({
-      'badge': 3
-    })
- 
 	 //修改当前App角标
     myPlugin.setLocalBadge({
       'badge': 4
@@ -90,12 +117,7 @@ usage() {
     })
 
 
-		//注册ActivityToken PushToStartToken
-    myPlugin.registerPushToStartToken({
-      'attribute': 'MyAttribute',
-      'token': 'token2',
-      'sn': '0002'
-    })
+
     
     //获取原生sdk版本号
     let ver = myPlugin.getVersion()
