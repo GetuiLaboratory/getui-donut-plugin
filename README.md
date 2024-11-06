@@ -214,7 +214,7 @@ const listener = (param) => {
 
        //ANDROID 监听事件总览：
        /**
-        * 参考Android api文档:https://docs.getui.com/getui/mobile/android/api/
+        * 参考Android api文档:https://docs.getui.com/getui/mobile/android/api/ 中GTIntentService类回调函数
         * 
         * //初始化CID回掉
         * method: onReceiveClientId
