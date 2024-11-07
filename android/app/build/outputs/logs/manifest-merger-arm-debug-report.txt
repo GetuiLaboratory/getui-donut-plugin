@@ -5,15 +5,13 @@ INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:45:23-57
 manifest
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-97:12
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:2:1-417:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:2:1-515:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/4e52989f4ec0962af4db2edaac080832/exifinterface-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/0dcffdfc404f4682a054954dbf7981a8/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/e794c4cb1ad792875552281b1014391a/glide-4.10.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/67e4c234758b776c431dda14dc9c2690/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
@@ -43,6 +41,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yangsihao/
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/2e063c8997a46c1293118ccfb0402183/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/ebd7412fb56c61ea9bd02b9a98682104/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/3172a95e8d282575e14a2e44674ecdff/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/4e52989f4ec0962af4db2edaac080832/exifinterface-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/470c0436ee93fafc6e4c73f34f9f64f3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.tencent:mmkv-static:1.2.12] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/f22dbae0496cbf25df8312b443a3123a/mmkv-static-1.2.12/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/b01d7da430a057ba983ddbbf313da022/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -53,26 +52,27 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/746ef6dc0d7bd7369f008b89d67291d6/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/43c49fb81f9ede678260bf6c348a1e23/gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/554a041537eb9d8a964c5c4b3912f56c/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/7626438d7439541423045e88c1e7743c/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.tencent.wcdb:wcdb-android:1.1-19] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/6f59535f0d8400337deaef1462168ba9/wcdb-android-1.1-19/AndroidManifest.xml:2:1-11:12
 MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d106ea2d0468475a1882d50102bd0896/roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/df62def5d8daa678af3a3a38e978031c/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
 	package
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:70-116
 	android:versionCode
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-65:12
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:2:11-69
@@ -80,16 +80,12 @@ uses-sdk
 ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:5:5-59
 INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:5:5-59
 INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:5:5-59
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-8:41
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-8:41
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:6:5-9:41
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:6:5-9:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:7:5-10:61
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:7:5-10:61
 MERGED from [com.google.android.material:material:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/4e52989f4ec0962af4db2edaac080832/exifinterface-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/4e52989f4ec0962af4db2edaac080832/exifinterface-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/0dcffdfc404f4682a054954dbf7981a8/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/0dcffdfc404f4682a054954dbf7981a8/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/e794c4cb1ad792875552281b1014391a/glide-4.10.0/AndroidManifest.xml:6:5-8:41
@@ -148,6 +144,8 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yangsihao/.gradle/cach
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/ebd7412fb56c61ea9bd02b9a98682104/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/3172a95e8d282575e14a2e44674ecdff/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/3172a95e8d282575e14a2e44674ecdff/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/4e52989f4ec0962af4db2edaac080832/exifinterface-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/4e52989f4ec0962af4db2edaac080832/exifinterface-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/470c0436ee93fafc6e4c73f34f9f64f3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/470c0436ee93fafc6e4c73f34f9f64f3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.tencent:mmkv-static:1.2.12] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/f22dbae0496cbf25df8312b443a3123a/mmkv-static-1.2.12/AndroidManifest.xml:5:5-7:41
@@ -168,6 +166,8 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/yangsihao/.grad
 MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/43c49fb81f9ede678260bf6c348a1e23/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/554a041537eb9d8a964c5c4b3912f56c/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/554a041537eb9d8a964c5c4b3912f56c/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/7626438d7439541423045e88c1e7743c/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/7626438d7439541423045e88c1e7743c/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.tencent.wcdb:wcdb-android:1.1-19] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/6f59535f0d8400337deaef1462168ba9/wcdb-android-1.1-19/AndroidManifest.xml:7:5-9:41
@@ -192,34 +192,34 @@ INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-67
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-67
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:30:5-32:54
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:30:5-32:54
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:13:5-67
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:13:5-67
 	xmlns:android
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:31:9-67
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:7:5-79
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:33:5-35:66
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:33:5-35:66
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:15:5-79
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:15:5-79
 	xmlns:android
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:34:9-67
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:8:5-81
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-81
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-81
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:29:5-81
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:29:5-81
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:9:5-79
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-79
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-79
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:28:5-79
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:28:5-79
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.RECORD_AUDIO
@@ -234,6 +234,8 @@ queries
 ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:13:5-15:15
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:12:5-21:15
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:12:5-21:15
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:45:5-62:15
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:45:5-62:15
 	package
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:12:14-40
 package#com.tencent.mm
@@ -241,13 +243,11 @@ ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-pl
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:14:18-47
 application
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:17:5-63:19
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-95:19
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-95:19
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:17:5-60:19
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:102:5-415:19
 MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:102:5-415:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:88:5-513:19
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:88:5-513:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/e794c4cb1ad792875552281b1014391a/glide-4.10.0/AndroidManifest.xml:10:5-20
@@ -258,12 +258,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yang
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/3172a95e8d282575e14a2e44674ecdff/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/43c49fb81f9ede678260bf6c348a1e23/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/43c49fb81f9ede678260bf6c348a1e23/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/55d469d4e6d7d00cc1a4b9c26d478a82/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:105:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/821fc8f91cd6425c5a296dec0c5bf0ef/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-35
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:90:9-35
 	android:label
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:21:9-41
 	xmlns:android
@@ -279,7 +281,7 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/yangsihao/.grad
 	tools:replace
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:24:9-63
 	android:usesCleartextTraffic
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-44
+		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:106:9-44
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:18:9-40
 uses-library#org.apache.http.legacy
@@ -338,174 +340,6 @@ ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-pl
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:57:13-36
 	android:name
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:55:13-53
-meta-data#GETUI_APPID
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:59:9-61:53
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-35:54
-MERGED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-35:54
-	android:value
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:61:13-51
-	android:name
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/AndroidManifest.xml:60:13-39
-uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-75
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-72
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-76
-MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:39:5-41:63
-MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:39:5-41:63
-	xmlns:android
-		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:40:9-67
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-73
-uses-permission#android.permission.VIBRATE
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
-MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:24:5-26:53
-MERGED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:24:5-26:53
-	xmlns:android
-		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:25:9-67
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
-uses-permission#android.permission.GET_TASKS
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-68
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-65
-uses-permission#android.permission.SCHEDULE_EXACT_ALARM
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-79
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-76
-uses-permission#getui.permission.GetuiService.${applicationId}
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-86
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-83
-uses-permission#getui.permission.GetuiService.com.tencent.weauth
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-86
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-83
-uses-permission#com.vivo.notification.permission.BADGE_ICON
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-83
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-80
-permission#getui.permission.GetuiService.${applicationId}
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-23:47
-	android:protectionLevel
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-44
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-70
-permission#getui.permission.GetuiService.com.tencent.weauth
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-23:47
-	android:protectionLevel
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-44
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-70
-uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-85
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-82
-service#com.donut.wxed34e654870cba42.PluginPushService
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:46
-	android:process
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-43
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-74
-service#com.donut.wxed34e654870cba42.PluginIntentService
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-84
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:18-81
-service#com.getui.gtc.GtcService
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:9-47:19
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-52
-intent-filter#action:name:com.getui.gtc.sdk.service.action
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-46:29
-action#com.getui.gtc.sdk.service.action
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:17-75
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:25-72
-provider#com.getui.gtc.base.GtcProvider
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:9-52:40
-	android:authorities
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-70
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-37
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-58
-meta-data#ZX_CHANNEL_ID
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-55:48
-	android:value
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-45
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-41
-meta-data#ZX_APPID_GETUI
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:68
-	android:value
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-65
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-42
-service#com.igexin.sdk.PushService
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:9-63:46
-	android:process
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-43
-	android:label
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-47
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-37
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-54
-service#com.igexin.sdk.GTIntentService
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:9-66:39
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-36
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-58
-service#com.igexin.sdk.GService
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:9-74:19
-	android:process
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-43
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-36
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-51
-intent-filter#action:name:com.getui.sdk.action
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-73:29
-action#com.getui.sdk.action
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:17-63
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:25-60
-activity#com.igexin.sdk.GetuiActivity
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:9-84:20
-	android:process
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-43
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-36
-	android:theme
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:13-72
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-56
-activity#com.igexin.sdk.PopupActivity
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:9-90:75
-	android:process
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:13-43
-	android:exported
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:13-37
-	android:configChanges
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:13-59
-	android:theme
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-72
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:13-56
-meta-data#GTSDK_VERSION
-ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:92:9-94:39
-	android:value
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:94:13-36
-	android:name
-		ADDED from [:plugin] /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/library_manifest/debug/AndroidManifest.xml:93:13-41
 intent#action:name:android.media.action.IMAGE_CAPTURE
 ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:13:9-16:18
 action#android.media.action.IMAGE_CAPTURE
@@ -518,6 +352,14 @@ action#android.media.action.ACTION_VIDEO_CAPTURE
 ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:18:13-19:22
 	android:name
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:18:21-77
+uses-permission#android.permission.VIBRATE
+ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:24:5-26:53
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:17:5-66
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:17:5-66
+	xmlns:android
+		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:26:9-50
 uses-permission#android.permission.ALARM_LOCK
 ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:27:5-29:56
 	xmlns:android
@@ -530,6 +372,14 @@ ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:37:9-67
 	android:name
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:38:9-52
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:39:5-41:63
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:16:5-76
+MERGED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:16:5-76
+	xmlns:android
+		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:40:9-67
+	android:name
+		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:41:9-60
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:42:5-44:68
 	xmlns:android
@@ -1184,3 +1034,879 @@ ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:409:13-37
 	android:name
 		ADDED from [com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:1.0.8] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d726c9ac018a44626ad2e21d0d31c2c5/wxa-standalone-open-runtime-SaaA-plugin-sdk-1.0.8/AndroidManifest.xml:407:13-80
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:19:22-76
+uses-permission#getui.permission.GetuiService.${applicationId}
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:20:5-86
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:20:22-83
+uses-permission#getui.permission.GetuiService.com.tencent.weauth
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:20:5-86
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:20:22-83
+uses-permission#com.vivo.notification.permission.BADGE_ICON
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:21:5-83
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:21:22-80
+permission#getui.permission.GetuiService.${applicationId}
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:23:5-25:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:25:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:24:9-70
+permission#getui.permission.GetuiService.com.tencent.weauth
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:23:5-25:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:25:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:24:9-70
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:27:5-77
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:27:22-74
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:30:5-85
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:30:22-82
+permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:32:5-34:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:34:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:33:9-68
+permission#com.tencent.weauth.permission.PROCESS_PUSH_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:32:5-34:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:34:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:33:9-68
+permission#${applicationId}.permission.PUSH_PROVIDER
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:36:5-38:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:38:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:37:9-65
+permission#com.tencent.weauth.permission.PUSH_PROVIDER
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:36:5-38:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:38:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:37:9-65
+permission#${applicationId}.permission.PUSH_WRITE_PROVIDER
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:39:5-41:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:40:9-71
+permission#com.tencent.weauth.permission.PUSH_WRITE_PROVIDER
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:39:5-41:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:40:9-71
+uses-permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:43:5-84
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:43:22-81
+uses-permission#com.tencent.weauth.permission.PROCESS_PUSH_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:43:5-84
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:43:22-81
+uses-permission#${applicationId}.permission.PUSH_PROVIDER
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:44:22-78
+uses-permission#com.tencent.weauth.permission.PUSH_PROVIDER
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:44:22-78
+package#com.huawei.android.pushagent
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:46:9-64
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:46:18-61
+intent#action:name:com.getui.vendor.action.push
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:48:9-50:18
+action#com.getui.vendor.action.push
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:49:13-67
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:49:21-64
+intent#action:name:com.sonymobile.action.service.DEVICE_SDK_INFO
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:51:9-53:18
+action#com.sonymobile.action.service.DEVICE_SDK_INFO
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:52:13-84
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:52:21-81
+intent#action:name:com.huawei.hms.core.aidlservice
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:54:9-56:18
+action#com.huawei.hms.core.aidlservice
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:55:13-70
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:55:21-67
+intent#action:name:com.huawei.hms.core
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:57:9-59:18
+action#com.huawei.hms.core
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:58:13-58
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:58:21-55
+package#com.huawei.works
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:61:9-52
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:61:18-49
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:64:5-77
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:64:22-74
+permission#${applicationId}.permission.MIPUSH_RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:66:5-68:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:68:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:67:9-66
+permission#com.tencent.weauth.permission.MIPUSH_RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:66:5-68:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:68:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:67:9-66
+uses-permission#${applicationId}.permission.MIPUSH_RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:70:5-82
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:70:22-79
+uses-permission#com.tencent.weauth.permission.MIPUSH_RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:70:5-82
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:70:22-79
+uses-permission#com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:71:5-86
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:71:22-83
+uses-permission#com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:72:5-85
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:72:22-82
+uses-permission#com.meizu.flyme.push.permission.RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:73:5-79
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:73:22-76
+uses-permission#com.meizu.c2dm.permission.RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:74:5-73
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:74:22-70
+uses-permission#${applicationId}.push.permission.MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:75:5-80
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:75:22-77
+uses-permission#com.tencent.weauth.push.permission.MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:75:5-80
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:75:22-77
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:76:5-79
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:76:22-76
+uses-permission#com.tencent.weauth.permission.C2D_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:76:5-79
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:76:22-76
+permission#${applicationId}.push.permission.MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:78:5-80:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:80:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:79:9-64
+permission#com.tencent.weauth.push.permission.MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:78:5-80:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:80:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:79:9-64
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:81:5-83:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:83:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:82:9-63
+permission#com.tencent.weauth.permission.C2D_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:81:5-83:47
+	android:protectionLevel
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:83:9-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:82:9-63
+uses-permission#com.meizu.flyme.permission.PUSH
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:85:5-71
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:85:22-68
+uses-permission#com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:86:5-95
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:86:22-92
+service#com.donut.wxed34e654870cba42.PluginPushService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:92:9-94:77
+	xmlns:android
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:93:13-71
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:94:13-74
+service#com.donut.wxed34e654870cba42.PluginIntentService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:95:9-97:79
+	xmlns:android
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:96:13-71
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:97:13-76
+meta-data#GETUI_APPID
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:106:9-109:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:109:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:108:13-51
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:107:13-39
+meta-data#com.huawei.hms.client.appid
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:115:9-118:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:118:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:117:13-38
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:116:13-55
+meta-data#MIPUSH_APPID
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:119:9-122:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:122:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:121:13-51
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:120:13-40
+meta-data#MIPUSH_APPKEY
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:123:9-126:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:126:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:125:13-45
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:124:13-41
+meta-data#OPPOPUSH_APPKEY
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:127:9-130:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:130:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:129:13-64
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:128:13-43
+meta-data#OPPOPUSH_APPSECRET
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:131:9-134:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:134:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:133:13-64
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:132:13-46
+meta-data#com.vivo.push.api_key
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:135:9-138:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:138:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:137:13-65
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:136:13-49
+meta-data#com.vivo.push.app_id
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:139:9-142:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:142:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:141:13-34
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:140:13-48
+meta-data#api_key
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:143:9-146:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:146:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:145:13-65
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:144:13-35
+meta-data#app_id
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:147:9-150:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:150:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:149:13-34
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:148:13-34
+meta-data#MEIZUPUSH_APPID
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:151:9-154:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:154:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:153:13-38
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:152:13-43
+meta-data#MEIZUPUSH_APPKEY
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:155:9-158:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:158:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:157:13-64
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:156:13-44
+meta-data#com.hihonor.push.app_id
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:159:9-162:45
+	tools:replace
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:162:13-42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:161:13-34
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:160:13-51
+meta-data#ZX_CHANNEL_ID
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:164:9-166:48
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:166:13-45
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:165:13-41
+meta-data#ZX_APPID_GETUI
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:167:9-169:68
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:169:13-65
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:168:13-42
+service#com.igexin.sdk.PushService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:170:9-174:46
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:174:13-43
+	android:label
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:173:13-47
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:171:13-54
+service#com.igexin.sdk.GTIntentService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:175:9-177:39
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:177:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:176:13-58
+service#com.igexin.sdk.GService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:178:9-185:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:181:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:180:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:179:13-51
+intent-filter#action:name:com.getui.sdk.action
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:182:13-184:29
+action#com.getui.sdk.action
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:183:17-63
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:183:25-60
+activity#com.igexin.sdk.GetuiActivity
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:187:9-195:20
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:190:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:189:13-36
+	android:theme
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:191:13-72
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:188:13-56
+activity#com.igexin.sdk.PopupActivity
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:196:9-201:75
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:200:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:199:13-37
+	android:configChanges
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:198:13-59
+	android:theme
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:201:13-72
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:197:13-56
+meta-data#GTSDK_VERSION
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:203:9-205:39
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:205:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:204:13-41
+service#com.getui.gtc.GtcService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:207:9-213:19
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:209:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:208:13-52
+intent-filter#action:name:com.getui.gtc.sdk.service.action
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:210:13-212:29
+action#com.getui.gtc.sdk.service.action
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:211:17-75
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:211:25-72
+provider#com.getui.gtc.base.GtcProvider
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:215:9-218:40
+	android:authorities
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:217:13-70
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:218:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:216:13-58
+service#com.igexin.sdk.HmsPushMessageService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:220:9-227:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:223:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:222:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:221:13-64
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:224:13-226:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:225:17-81
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:225:25-78
+receiver#com.huawei.hms.support.api.push.PushMsgReceiver
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:229:9-241:20
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:232:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:233:13-78
+	android:directBootAware
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:231:13-43
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:230:13-75
+intent-filter#action:name:com.huawei.intent.action.PUSH+action:name:com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:234:13-240:29
+action#com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:237:17-85
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:237:25-82
+action#com.huawei.intent.action.PUSH
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:239:17-72
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:239:25-69
+receiver#com.huawei.hms.support.api.push.PushReceiver
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:242:9-254:20
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:245:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:246:13-78
+	android:directBootAware
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:244:13-43
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:243:13-72
+intent-filter#action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:247:13-253:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:250:17-86
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:250:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:252:17-81
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:252:25-78
+service#com.huawei.hms.support.api.push.service.HmsMsgService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:255:9-265:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:260:13-43
+	android:enabled
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:258:13-35
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:259:13-36
+	android:directBootAware
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:257:13-43
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:256:13-81
+intent-filter#action:name:com.huawei.push.msg.NOTIFY_MSG+action:name:com.huawei.push.msg.PASSBY_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:261:13-264:29
+action#com.huawei.push.msg.NOTIFY_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:262:17-73
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:262:25-70
+action#com.huawei.push.msg.PASSBY_MSG
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:263:17-73
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:263:25-70
+provider#com.huawei.hms.support.api.push.PushProvider
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:267:9-272:89
+	android:readPermission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:271:13-79
+	android:authorities
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:269:13-72
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:270:13-36
+	android:writePermission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:272:13-86
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:268:13-72
+meta-data#com.huawei.hms.client.service.name:push
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:274:9-276:47
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:276:13-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:275:13-67
+meta-data#com.huawei.hms.min_api_level:push:push
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:277:9-279:33
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:279:13-30
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:278:13-66
+activity#com.huawei.hms.support.api.push.TransActivity
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:281:9-283:40
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:283:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:282:13-73
+meta-data#MIPUSH_SDK_VERSION_CODE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:285:9-287:37
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:287:13-34
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:286:13-51
+meta-data#MIPUSH_SDK_VERSION_NAME
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:288:9-290:39
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:290:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:289:13-51
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:311:9-316:46
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:316:13-43
+	android:enabled
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:313:13-35
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:314:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:315:13-75
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:312:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:317:9-320:46
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:320:13-43
+	android:enabled
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:319:13-35
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:318:13-70
+receiver#com.igexin.sdk.MiuiPushReceiver
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:330:9-343:20
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:333:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:332:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:331:13-59
+intent-filter#action:name:com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:334:13-336:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:335:17-76
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:335:25-73
+intent-filter#action:name:com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:337:13-339:29
+action#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:338:17-76
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:338:25-73
+intent-filter#action:name:com.xiaomi.mipush.ERROR
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:340:13-342:29
+action#com.xiaomi.mipush.ERROR
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:341:17-66
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:341:25-63
+activity#com.xiaomi.mipush.sdk.NotificationClickedActivity
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:345:9-355:20
+	android:enabled
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:347:13-35
+	android:excludeFromRecents
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:348:13-46
+	android:launchMode
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:350:13-48
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:349:13-36
+	android:theme
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:351:13-72
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:346:13-77
+meta-data#supportStyle
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:352:13-354:46
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:354:17-43
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:353:17-44
+service#com.igexin.sdk.OppoPushService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:357:9-365:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:361:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:359:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:360:13-80
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:358:13-58
+intent-filter#action:name:com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:362:13-364:29
+action#com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:363:17-85
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:363:25-82
+service#com.igexin.sdk.OppoAppPushService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:366:9-375:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:370:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:368:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:369:13-80
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:367:13-61
+intent-filter#action:name:com.heytap.mcs.action.RECEIVE_MCS_MESSAGE+action:name:com.heytap.msp.push.RECEIVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:371:13-374:29
+action#com.heytap.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:372:17-84
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:372:25-81
+action#com.heytap.msp.push.RECEIVE_MCS_MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:373:17-82
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:373:25-79
+meta-data#sdkVersion
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:377:9-379:36
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:379:13-33
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:378:13-38
+receiver#com.igexin.sdk.VivoPushMessageReceiver
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:381:9-390:20
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:384:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:383:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:382:13-66
+intent-filter#action:name:com.vivo.pushclient.action.RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:385:13-389:29
+action#com.vivo.pushclient.action.RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:388:17-77
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:388:25-74
+meta-data#sdk_version_vivo
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:391:9-393:35
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:393:13-32
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:392:13-44
+service#com.vivo.push.sdk.service.CommandClientService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:395:9-399:46
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:399:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:397:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:398:13-68
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:396:13-74
+meta-data#local_iv
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:401:9-403:295
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:403:13-292
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:402:13-36
+meta-data#com.vivo.push.support_monitor
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:404:9-406:33
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:406:13-30
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:405:13-57
+receiver#com.igexin.sdk.FlymePushReceiver
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:408:9-426:20
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:411:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:410:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:409:13-60
+intent-filter#action:name:com.meizu.c2dm.intent.RECEIVE+action:name:com.meizu.c2dm.intent.REGISTRATION+action:name:com.meizu.flyme.push.intent.MESSAGE+action:name:com.meizu.flyme.push.intent.REGISTER.FEEDBACK+action:name:com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK+category:name:${applicationId}
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:412:13-425:29
+intent-filter#action:name:com.meizu.c2dm.intent.RECEIVE+action:name:com.meizu.c2dm.intent.REGISTRATION+action:name:com.meizu.flyme.push.intent.MESSAGE+action:name:com.meizu.flyme.push.intent.REGISTER.FEEDBACK+action:name:com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK+category:name:com.tencent.weauth
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:412:13-425:29
+action#com.meizu.flyme.push.intent.MESSAGE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:415:17-78
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:415:25-75
+action#com.meizu.flyme.push.intent.REGISTER.FEEDBACK
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:417:17-88
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:417:25-85
+action#com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:419:17-90
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:419:25-87
+action#com.meizu.c2dm.intent.REGISTRATION
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:421:17-77
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:421:25-74
+action#com.meizu.c2dm.intent.RECEIVE
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:422:17-72
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:422:25-69
+category#${applicationId}
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:424:17-61
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:424:27-58
+category#com.tencent.weauth
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:424:17-61
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:424:27-58
+service#com.igexin.assist.control.stp.StpService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:428:9-438:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:432:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:430:13-36
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:431:13-66
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:429:13-68
+intent-filter#action:name:com.sdk.ups.action.${applicationId}+category:name:android.intent.category.DEFAULT
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:433:13-437:29
+intent-filter#action:name:com.sdk.ups.action.com.tencent.weauth+category:name:android.intent.category.DEFAULT
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:433:13-437:29
+action#com.sdk.ups.action.${applicationId}
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:436:17-78
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:436:25-75
+action#com.sdk.ups.action.com.tencent.weauth
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:436:17-78
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:436:25-75
+service#com.igexin.sdk.HonorPushMessageService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:439:9-446:19
+	android:process
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:442:13-43
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:441:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:440:13-66
+intent-filter#action:name:com.hihonor.push.action.MESSAGING_EVENT
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:443:13-445:29
+action#com.hihonor.push.action.MESSAGING_EVENT
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:444:17-82
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:444:25-79
+provider#com.huawei.hms.aaid.InitProvider
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:448:9-452:39
+	android:authorities
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:450:13-68
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:451:13-37
+	android:initOrder
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:452:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:449:13-60
+meta-data#com.huawei.hms.client.service.name:opendevice
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:454:9-456:53
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:456:13-50
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:455:13-73
+meta-data#com.huawei.hms.min_api_level:opendevice:push
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:457:9-459:33
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:459:13-30
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:458:13-72
+service#com.meizu.cloud.pushsdk.NotificationService
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:461:9-463:39
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:463:13-36
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:462:13-71
+receiver#com.meizu.cloud.pushsdk.MzPushSystemReceiver
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:465:9-472:20
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:467:13-37
+	android:permission
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:468:13-65
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:466:13-72
+intent-filter#action:name:com.meizu.flyme.push.intent.PUSH_SYSTEM
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:469:13-471:29
+action#com.meizu.flyme.push.intent.PUSH_SYSTEM
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:470:17-82
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:470:25-79
+meta-data#com.hihonor.push.sdk_version
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:474:9-476:42
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:476:13-39
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:475:13-56
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:477:9-479:47
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:479:13-44
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:478:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:480:9-482:33
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:482:13-30
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:481:13-69
+meta-data#availableLoaded
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:483:9-485:35
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:485:13-32
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:484:13-43
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:487:9-498:20
+	android:screenOrientation
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:493:13-47
+	android:excludeFromRecents
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:490:13-46
+	android:hardwareAccelerated
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:492:13-47
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:491:13-37
+	android:configChanges
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:489:13-131
+	android:theme
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:494:13-52
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:488:13-66
+meta-data#hwc-theme
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:495:13-497:77
+	android:value
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:497:17-74
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:496:17-41
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:499:9-503:20
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:502:13-37
+	android:configChanges
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:501:13-106
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:500:13-73
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:505:9-508:40
+	android:authorities
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:507:13-73
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:508:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:506:13-90
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:510:9-512:40
+	android:exported
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:512:13-37
+	android:name
+		ADDED from [com.donut.plugin:wxed34e654870cba42:0.0.2] /Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/AndroidManifest.xml:511:13-70

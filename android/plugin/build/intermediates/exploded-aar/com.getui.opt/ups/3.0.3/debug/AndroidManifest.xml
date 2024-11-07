@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.getui.stp"
+    android:versionCode="20220422"
+    android:versionName="3.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <queries>
+        <intent>
+            <action android:name="com.getui.vendor.action.push" />
+        </intent>
+        <intent>
+            <action android:name="com.sonymobile.action.service.DEVICE_SDK_INFO" />
+        </intent>
+    </queries>
+
+    <application>
+        <service
+            android:name="com.igexin.assist.control.stp.StpService"
+            android:exported="true"
+            android:permission="com.getui.vendor.push.permission"
+            android:process=":pushservice" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.sdk.ups.action.${applicationId}" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

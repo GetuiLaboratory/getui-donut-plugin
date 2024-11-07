@@ -1,0 +1,154 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/values-my-rZG/values-my-rZG.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/ui/6.11.0.302/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,245,574,644,891",
+                        "endColumns": "189,328,69,246,68",
+                        "endOffsets": "240,569,639,886,955"
+                    },
+                    "to": {
+                        "startLines": "12,13,34,80,87",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "247,437,1234,2473,2884",
+                        "endColumns": "189,328,69,246,68",
+                        "endOffsets": "432,761,1299,2715,2948"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/push/6.12.0.300/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    },
+                    "to": {
+                        "startLines": "81",
+                        "startColumns": "4",
+                        "startOffsets": "2720",
+                        "endColumns": "72",
+                        "endOffsets": "2788"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.getui.opt/hwp/3.1.2/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,156,161,166,171,176,181,186,191,196,201,206,211",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "14,94,202,284,418,554,662,828,962,1102,1255,1356,1463,1556,1639,1813,1902,1987,2190,2355,2469,2587,2694,2785,2878,2960,3082,3240,3413,3515,3706,3842,4019,4102,4193,4286,4387,4482,4568,4709,4838,4955,5112",
+                        "endLines": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "91,199,281,415,551,659,825,959,1099,1252,1353,1460,1553,1636,1810,1899,1984,2187,2352,2466,2584,2691,2782,2875,2957,3079,3237,3410,3512,3703,3839,4016,4099,4190,4283,4384,4479,4565,4706,4835,4952,5109,5206"
+                    },
+                    "to": {
+                        "startLines": "2,7,14,19,24,29,35,40,45,50,55,60,65,70,75,82,88,93,98,103,109,114,119,124,129,134,139,144,149,154,159,164,169,174,179,184,189,194,199,204,209,214,219",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,137,766,850,986,1124,1304,1472,1608,1750,1905,2008,2117,2212,2297,2793,2953,3040,3245,3412,3598,3718,3827,3920,4015,4099,4223,4383,4558,4662,4855,4993,5172,5257,5350,5445,5548,5645,5733,5876,6007,6126,6285",
+                        "endLines": "6,11,18,23,28,33,39,44,49,54,59,64,69,74,79,86,92,97,102,107,113,118,123,128,133,138,143,148,153,158,163,168,173,178,183,188,193,198,203,208,213,218,223",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "132,242,845,981,1119,1229,1467,1603,1745,1900,2003,2112,2207,2292,2468,2879,3035,3240,3407,3523,3713,3822,3915,4010,4094,4218,4378,4553,4657,4850,4988,5167,5252,5345,5440,5543,5640,5728,5871,6002,6121,6280,6379"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.assist-v3/oppo/3.4.0/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    },
+                    "to": {
+                        "startLines": "108",
+                        "startColumns": "4",
+                        "startOffsets": "3528",
+                        "endColumns": "69",
+                        "endOffsets": "3593"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-my-rZG/values-my-rZG.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/ui/6.11.0.302/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,245,574,644,891",
+                        "endColumns": "189,328,69,246,68",
+                        "endOffsets": "240,569,639,886,955"
+                    },
+                    "to": {
+                        "startLines": "12,13,34,80,87",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "247,437,1234,2473,2884",
+                        "endColumns": "189,328,69,246,68",
+                        "endOffsets": "432,761,1299,2715,2948"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/push/6.12.0.300/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    },
+                    "to": {
+                        "startLines": "81",
+                        "startColumns": "4",
+                        "startOffsets": "2720",
+                        "endColumns": "72",
+                        "endOffsets": "2788"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.getui.opt/hwp/3.1.2/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,156,161,166,171,176,181,186,191,196,201,206,211",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "14,94,202,284,418,554,662,828,962,1102,1255,1356,1463,1556,1639,1813,1902,1987,2190,2355,2469,2587,2694,2785,2878,2960,3082,3240,3413,3515,3706,3842,4019,4102,4193,4286,4387,4482,4568,4709,4838,4955,5112",
+                        "endLines": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "91,199,281,415,551,659,825,959,1099,1252,1353,1460,1553,1636,1810,1899,1984,2187,2352,2466,2584,2691,2782,2875,2957,3079,3237,3410,3512,3703,3839,4016,4099,4190,4283,4384,4479,4565,4706,4835,4952,5109,5206"
+                    },
+                    "to": {
+                        "startLines": "2,7,14,19,24,29,35,40,45,50,55,60,65,70,75,82,88,93,98,103,109,114,119,124,129,134,139,144,149,154,159,164,169,174,179,184,189,194,199,204,209,214,219",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,137,766,850,986,1124,1304,1472,1608,1750,1905,2008,2117,2212,2297,2793,2953,3040,3245,3412,3598,3718,3827,3920,4015,4099,4223,4383,4558,4662,4855,4993,5172,5257,5350,5445,5548,5645,5733,5876,6007,6126,6285",
+                        "endLines": "6,11,18,23,28,33,39,44,49,54,59,64,69,74,79,86,92,97,102,107,113,118,123,128,133,138,143,148,153,158,163,168,173,178,183,188,193,198,203,208,213,218,223",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "132,242,845,981,1119,1229,1467,1603,1745,1900,2003,2112,2207,2292,2468,2879,3035,3240,3407,3523,3713,3822,3915,4010,4094,4218,4378,4553,4657,4850,4988,5167,5252,5345,5440,5543,5640,5728,5871,6002,6121,6280,6379"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.assist-v3/oppo/3.4.0/release/res/values-my-rZG/values-my-rZG.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    },
+                    "to": {
+                        "startLines": "108",
+                        "startColumns": "4",
+                        "startOffsets": "3528",
+                        "endColumns": "69",
+                        "endOffsets": "3593"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/values-my-rMM/values-my-rMM.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.getui.opt/hwp/3.1.2/release/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,156,161,166,171,176,181,186,191,196,201,206,211",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "14,94,202,284,419,555,663,830,964,1104,1259,1360,1467,1560,1643,1820,1909,1994,2200,2358,2473,2591,2690,2773,2858,2940,3054,3212,3385,3479,3670,3806,3983,4066,4149,4242,4335,4422,4508,4650,4780,4897,5046",
+                        "endLines": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "91,199,281,416,552,660,827,961,1101,1256,1357,1464,1557,1640,1817,1906,1991,2197,2355,2470,2588,2687,2770,2855,2937,3051,3209,3382,3476,3667,3803,3980,4063,4146,4239,4332,4419,4505,4647,4777,4894,5043,5132"
+                    },
+                    "to": {
+                        "startLines": "2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,78,83,88,93,98,104,109,114,119,124,129,134,139,144,149,154,159,164,169,174,179,184,189,194,199,204,209,214",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,137,247,331,468,606,716,885,1021,1163,1320,1423,1532,1627,1712,1958,2049,2136,2344,2504,2691,2811,2912,2997,3084,3168,3284,3444,3619,3715,3908,4046,4225,4310,4395,4490,4585,4674,4762,4906,5038,5157,5308",
+                        "endLines": "6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,82,87,92,97,102,108,113,118,123,128,133,138,143,148,153,158,163,168,173,178,183,188,193,198,203,208,213,218",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "132,242,326,463,601,711,880,1016,1158,1315,1418,1527,1622,1707,1886,2044,2131,2339,2499,2616,2806,2907,2992,3079,3163,3279,3439,3614,3710,3903,4041,4220,4305,4390,4485,4580,4669,4757,4901,5033,5152,5303,5394"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.assist-v3/oppo/3.4.0/release/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    },
+                    "to": {
+                        "startLines": "103",
+                        "startColumns": "4",
+                        "startOffsets": "2621",
+                        "endColumns": "69",
+                        "endOffsets": "2686"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/push/6.12.0.300/release/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    },
+                    "to": {
+                        "startLines": "77",
+                        "startColumns": "4",
+                        "startOffsets": "1891",
+                        "endColumns": "66",
+                        "endOffsets": "1953"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-my-rMM/values-my-rMM.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.getui.opt/hwp/3.1.2/release/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,156,161,166,171,176,181,186,191,196,201,206,211",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "14,94,202,284,419,555,663,830,964,1104,1259,1360,1467,1560,1643,1820,1909,1994,2200,2358,2473,2591,2690,2773,2858,2940,3054,3212,3385,3479,3670,3806,3983,4066,4149,4242,4335,4422,4508,4650,4780,4897,5046",
+                        "endLines": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "91,199,281,416,552,660,827,961,1101,1256,1357,1464,1557,1640,1817,1906,1991,2197,2355,2470,2588,2687,2770,2855,2937,3051,3209,3382,3476,3667,3803,3980,4063,4146,4239,4332,4419,4505,4647,4777,4894,5043,5132"
+                    },
+                    "to": {
+                        "startLines": "2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,78,83,88,93,98,104,109,114,119,124,129,134,139,144,149,154,159,164,169,174,179,184,189,194,199,204,209,214",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,137,247,331,468,606,716,885,1021,1163,1320,1423,1532,1627,1712,1958,2049,2136,2344,2504,2691,2811,2912,2997,3084,3168,3284,3444,3619,3715,3908,4046,4225,4310,4395,4490,4585,4674,4762,4906,5038,5157,5308",
+                        "endLines": "6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,82,87,92,97,102,108,113,118,123,128,133,138,143,148,153,158,163,168,173,178,183,188,193,198,203,208,213,218",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "132,242,326,463,601,711,880,1016,1158,1315,1418,1527,1622,1707,1886,2044,2131,2339,2499,2616,2806,2907,2992,3079,3163,3279,3439,3614,3710,3903,4041,4220,4305,4390,4485,4580,4669,4757,4901,5033,5152,5303,5394"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.assist-v3/oppo/3.4.0/release/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    },
+                    "to": {
+                        "startLines": "103",
+                        "startColumns": "4",
+                        "startOffsets": "2621",
+                        "endColumns": "69",
+                        "endOffsets": "2686"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/push/6.12.0.300/release/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    },
+                    "to": {
+                        "startLines": "77",
+                        "startColumns": "4",
+                        "startOffsets": "1891",
+                        "endColumns": "66",
+                        "endOffsets": "1953"
+                    }
+                }
+            ]
+        }
+    ]
+}

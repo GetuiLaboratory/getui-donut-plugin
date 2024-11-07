@@ -1,0 +1,242 @@
+// 过滤删除 com.getui:gtsdk:3.2.10.0
+// <meta-data android:name="GETUI_APPID" android:value="${GETUI_APPID}" />
+
+def getVendorExploadedPathWithVersion(String vendor) {
+    String path = (MULTI_VENDOR[vendor]?.exploadedPath) ?: ""
+    String version = (MULTI_VENDOR[vendor]?.version) ?: ""
+
+    return path + version
+}
+
+def getVendorExploadedPath(String vendor, String str) {
+    String path = (MULTI_VENDOR[vendor]?.exploadedPath) ?: ""
+    return path + str
+}
+
+def getVendorEnable(String vendor) {
+    return MULTI_VENDOR[vendor]?.enable ?: false
+}
+
+class XmlBean {
+    String filePath
+    String fileName
+    List<XmlTagBean> tags
+
+
+    XmlBean(String filePath, String fileName) {
+        this.filePath = filePath
+        this.fileName = fileName
+        this.tags = new ArrayList<>()
+    }
+
+    XmlBean(String filePath, String fileName, String tagName, String tagNameValue) {
+        this(filePath, fileName)
+        this.addXmlTag(tagName, tagNameValue)
+    }
+
+    def addXmlTag(String tagName, String tagNameValue) {
+        this.tags.add(new XmlTagBean(tagName, tagNameValue))
+    }
+
+
+    def execute(Project project) {
+        def file = new File(filePath, fileName)
+        println "removeXmlTag ===> ${file.getAbsolutePath()} ${tags}"
+
+        if (tags.isEmpty()) {
+            project.logger.log(LogLevel.WARN, "${file.getAbsolutePath()}, 不需要处理")
+            return
+        }
+
+        if (!file.exists()) {
+            project.logger.log(LogLevel.ERROR, "${file.getAbsolutePath()}, 不存在")
+            return
+        }
+        def removeFlag = false
+        def parser = new XmlParser()
+        def root = parser.parse(file)
+        def nodeList = root.depthFirst()
+        for (xmlTagBean in tags) {
+
+            Node find = findNode(nodeList, xmlTagBean)
+
+            if (find == null) {
+                println "removeXmlTag ===> ${xmlTagBean} 未找到"
+            } else {
+//                Node parent = find.parent()
+//                if (find == root) {
+//                    //应该等价 parent == null
+//                }
+                removeFlag = true
+                find.parent().remove(find)
+                println "removeXmlTag ===> ${xmlTagBean} 剔除成功"
+            }
+        }
+        if (!removeFlag) {
+            project.logger.log(LogLevel.WARN, "${file.getAbsolutePath()} ${tags} , 未命中")
+            return
+        }
+        // 将修改后的 Xml 节点输出到目录中
+        new XmlNodePrinter(new PrintWriter(file)).print(root)
+        // 后续优化？加上校验
+        println "removeXmlTag ===> 剔除并且写入成功"
+    }
+
+    def findNode(List nodeList, XmlTagBean xmlTagBean) {
+        for (item in nodeList) {
+            Node node = (Node) item
+//            println "${node.name()} --- ${node.attributes().toString()}"
+            if (node.name() == xmlTagBean.tagName) {
+                Map map = node.attributes()
+                if (map.containsValue(xmlTagBean.tagNameValue)) {
+                    return node
+                }
+            }
+        }
+        return null
+    }
+}
+
+class XmlTagBean {
+    String tagName
+    String tagNameValue
+
+    XmlTagBean(String tagName, String tagNameValue) {
+        this.tagName = tagName
+        this.tagNameValue = tagNameValue
+    }
+
+    @Override
+    String toString() {
+        return "(${tagName} - ${tagNameValue})"
+    }
+}
+
+def buildValuesXmlList(String buildType) {
+    println("buildValuesXmlList ===> ${buildType}")
+    def xmlList = new ArrayList<XmlBean>()
+    def parentPath = "${project.buildDir.getAbsolutePath()}/intermediates/exploded-aar"
+    def valueFileName = "values.xml"
+    def stringTagName = "string"
+
+    //Resource and asset merger
+    ///com.huawei.hms/push/6.5.0.300/debug/res/values/values.xml"
+    def hwList = new ArrayList<XmlBean>()
+    def hwPath = "${parentPath}/${getVendorExploadedPathWithVersion("HUAWEI")}/${buildType}"
+    def hmsPath = "${parentPath}/${getVendorExploadedPathWithVersion("HUAWEI_HMS_PUSH")}/${buildType}"
+    XmlBean huaweiPushValueXmlBean = new XmlBean("${hmsPath}/res/values/", valueFileName)
+    huaweiPushValueXmlBean.addXmlTag(stringTagName, "push_cat_body")
+    huaweiPushValueXmlBean.addXmlTag(stringTagName, "push_cat_head")
+
+    hwList.add(huaweiPushValueXmlBean)
+    hwList.add(new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("HUAWEI")}/${buildType}/res/values/", valueFileName, stringTagName, "app_name"))
+
+    //删除 非 values 目录
+    def resFile = new File("${hwPath}/res")
+    if (resFile.exists()) {
+        def fileList = resFile.listFiles()
+        for (file in fileList) {
+            if (file == null || !file.isDirectory()) {
+                continue
+            }
+            def fileName = file.getName()
+            if (fileName.startsWith("values")) {
+                def valuesFiles = file.listFiles()
+                for (itemFile in valuesFiles) {
+                    if (itemFile != null) {
+                        hwList.add(new XmlBean(file.getAbsolutePath(), itemFile.getName(), stringTagName, "hms_confirm"))
+                        hwList.add(new XmlBean(file.getAbsolutePath(), itemFile.getName(), stringTagName, "hms_bindfaildlg_message"))
+                        hwList.add(new XmlBean(file.getAbsolutePath(), itemFile.getName(), stringTagName, "hms_bindfaildlg_title"))
+                    }
+                }
+            }
+        }
+    }
+
+//    for (final def fileName in resFile.list()) {
+//        println("resFile ===> ${fileName}")
+//    }
+
+    XmlBean meizuValueXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("MEIZU")}/${buildType}/res/values/", valueFileName, stringTagName, "app_name")
+    XmlBean xiaomiValueXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("XIAOMI")}/${buildType}/res/values/", valueFileName, stringTagName, "app_name")
+    XmlBean upsValueXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("UPS")}/${buildType}/res/values/", valueFileName, stringTagName, "app_name")
+    XmlBean gtBean = null
+    if (GTSDK.type == "aar") {
+        gtBean = new XmlBean("${parentPath}/${GTSDK.exploadedPath}/${buildType}/res/values/", valueFileName, stringTagName, "app_name")
+    } else {
+        gtBean = new XmlBean("${parentPath}/${GTSDK.exploadedPath}/${GTSDK.version}/${buildType}/res/values/", valueFileName, stringTagName, "app_name")
+    }
+
+    xmlList.add(gtBean)
+    if (getVendorEnable("HUAWEI")) {
+//        xmlList.add(huaweiPushValueXmlBean)
+        xmlList.addAll(hwList)
+    }
+    if (getVendorEnable("MEIZU")) xmlList.add(meizuValueXmlBean)
+    if (getVendorEnable("XIAOMI")) xmlList.add(xiaomiValueXmlBean)
+    if (getVendorEnable("UPS")) xmlList.add(upsValueXmlBean)
+
+    return xmlList
+}
+
+def buildManifestXmlList(String buildType) {
+    def xmlList = new ArrayList<XmlBean>()
+    def parentPath = "${project.buildDir.getAbsolutePath()}/intermediates/exploded-aar"
+    def manifestFileName = "AndroidManifest.xml"
+    def metaTagName = "meta-data"
+    XmlBean gtsdkXmlBean = null
+    if (GTSDK.type == "aar") {
+        gtsdkXmlBean = new XmlBean("${parentPath}/${GTSDK.exploadedPath}/${buildType}", manifestFileName, metaTagName, "GETUI_APPID")
+    } else {
+        gtsdkXmlBean = new XmlBean("${parentPath}/${GTSDK.exploadedPath}/${GTSDK.version}/${buildType}", manifestFileName, metaTagName, "GETUI_APPID")
+    }
+
+    XmlBean oppoXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("OPPO")}/${buildType}", manifestFileName)
+    oppoXmlBean.addXmlTag(metaTagName, "OPPOPUSH_APPKEY")
+    oppoXmlBean.addXmlTag(metaTagName, "OPPOPUSH_APPSECRET")
+
+    XmlBean vivoXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("VIVO")}/${buildType}", manifestFileName)
+    vivoXmlBean.addXmlTag(metaTagName, "com.vivo.push.api_key")
+    vivoXmlBean.addXmlTag(metaTagName, "com.vivo.push.app_id")
+
+    XmlBean huaweiXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("HUAWEI")}/${buildType}",
+            manifestFileName, metaTagName, "com.huawei.hms.client.appid")
+
+    XmlBean meizuXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("MEIZU")}/${buildType}", manifestFileName)
+    meizuXmlBean.addXmlTag(metaTagName, "MEIZUPUSH_APPID")
+    meizuXmlBean.addXmlTag(metaTagName, "MEIZUPUSH_APPKEY")
+
+    XmlBean xiaomiXmlBean = new XmlBean("${parentPath}/${getVendorExploadedPathWithVersion("XIAOMI")}/${buildType}/", manifestFileName)
+    xiaomiXmlBean.addXmlTag(metaTagName, "MIPUSH_APPID")
+    xiaomiXmlBean.addXmlTag(metaTagName, "MIPUSH_APPKEY")
+
+    xmlList.add(gtsdkXmlBean)
+    if (getVendorEnable("OPPO")) xmlList.add(oppoXmlBean)
+    if (getVendorEnable("VIVO")) xmlList.add(vivoXmlBean)
+    if (getVendorEnable("HUAWEI")) xmlList.add(huaweiXmlBean)
+    if (getVendorEnable("MEIZU")) xmlList.add(meizuXmlBean)
+    if (getVendorEnable("XIAOMI")) xmlList.add(xiaomiXmlBean)
+
+    return xmlList
+}
+
+def processByBuildType(String buildType) {
+    String path = "${project.buildDir.getAbsolutePath()}/intermediates/exploded-aar"
+    File file = new File(path)
+    println "processByBuildType-${buildType} ${file.getAbsolutePath()} exists : ${file.exists()}"
+    if (file.exists()) {
+        buildValuesXmlList(buildType).each { it.execute(project) }
+        buildManifestXmlList(buildType).each { it.execute(project) }
+    }
+}
+
+project.afterEvaluate {
+
+    project.tasks.getByName("packageDebugResources").doFirst {
+        processByBuildType("debug")
+    }
+
+    project.tasks.getByName("packageReleaseResources").doFirst {
+        processByBuildType("release")
+    }
+}

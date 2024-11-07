@@ -1,0 +1,2 @@
+-keep public class com.huawei.hms.support.api.entity.opendevice.* { public *; protected *; }
+-keep public class com.huawei.hms.aaid.entity.* { *;}

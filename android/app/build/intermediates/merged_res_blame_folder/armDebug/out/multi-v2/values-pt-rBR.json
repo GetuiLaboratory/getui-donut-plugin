@@ -4,6 +4,23 @@
             "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/build/intermediates/incremental/mergeArmDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
+                    "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "3029",
+                        "endColumns": "74",
+                        "endOffsets": "3099"
+                    }
+                },
+                {
                     "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/0dcffdfc404f4682a054954dbf7981a8/appcompat-1.1.0/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",

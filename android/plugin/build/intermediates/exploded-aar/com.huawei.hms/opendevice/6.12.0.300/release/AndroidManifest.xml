@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.android.hms.openid" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="33" />
+
+    <application>
+        <provider
+            android:name="com.huawei.hms.aaid.InitProvider"
+            android:authorities="${applicationId}.aaidinitprovider"
+            android:exported="false"
+            android:initOrder="500" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:opendevice"
+            android:value="opendevice:6.12.0.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:opendevice:push"
+            android:value="1" />
+    </application>
+
+</manifest>

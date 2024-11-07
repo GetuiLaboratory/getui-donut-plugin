@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/values-ug/values-ug.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/push/6.12.0.300/release/res/values-ug/values-ug.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "759",
+                        "endColumns": "76",
+                        "endOffsets": "831"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/ui/6.11.0.302/release/res/values-ug/values-ug.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,198,444,515,759",
+                        "endColumns": "142,245,70,243,69",
+                        "endOffsets": "193,439,510,754,824"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,198,444,515,836",
+                        "endColumns": "142,245,70,243,69",
+                        "endOffsets": "193,439,510,754,901"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ug/values-ug.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/push/6.12.0.300/release/res/values-ug/values-ug.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "759",
+                        "endColumns": "76",
+                        "endOffsets": "831"
+                    }
+                },
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.huawei.hms/ui/6.11.0.302/release/res/values-ug/values-ug.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,198,444,515,759",
+                        "endColumns": "142,245,70,243,69",
+                        "endOffsets": "193,439,510,754,824"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,198,444,515,836",
+                        "endColumns": "142,245,70,243,69",
+                        "endOffsets": "193,439,510,754,901"
+                    }
+                }
+            ]
+        }
+    ]
+}

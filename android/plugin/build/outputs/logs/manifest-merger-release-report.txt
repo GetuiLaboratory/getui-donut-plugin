@@ -1,32 +1,140 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-12:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-12:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-12:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-12:12
-INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-12:12
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-81:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-81:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-81:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-81:12
+INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-81:12
 	package
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:2:5-43
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-12:12
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:1-81:12
 		INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:2:5-51
 	xmlns:android
 		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:5:5-10:19
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:6:5-79:19
 service#com.donut.wxed34e654870cba42.PluginPushService
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:6:9-8:15
-	android:process
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:7:13-43
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:7:9-8:49
+	xmlns:android
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:7:18-76
 	android:name
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:6:18-51
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:8:13-46
 service#com.donut.wxed34e654870cba42.PluginIntentService
-ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:9:9-56
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:9:9-10:51
+	xmlns:android
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:9:18-76
 	android:name
-		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:9:18-53
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:10:13-48
+meta-data#GETUI_APPID
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:18:9-21:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:21:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:20:13-51
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:19:13-39
+meta-data#com.huawei.hms.client.appid
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:25:9-28:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:28:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:27:13-38
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:26:13-55
+meta-data#MIPUSH_APPID
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:30:9-33:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:33:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:32:13-51
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:31:13-40
+meta-data#MIPUSH_APPKEY
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:34:9-37:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:37:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:35:13-41
+meta-data#OPPOPUSH_APPKEY
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:39:9-42:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:42:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:41:13-64
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:40:13-43
+meta-data#OPPOPUSH_APPSECRET
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:43:9-46:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:46:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:45:13-64
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:44:13-46
+meta-data#com.vivo.push.api_key
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:48:9-51:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:51:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:50:13-65
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:49:13-49
+meta-data#com.vivo.push.app_id
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:52:9-55:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:55:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:54:13-34
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:53:13-48
+meta-data#api_key
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:56:9-59:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:59:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:57:13-35
+meta-data#app_id
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:60:9-63:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:63:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:62:13-34
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:61:13-34
+meta-data#MEIZUPUSH_APPID
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:65:9-68:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:68:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:67:13-38
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:66:13-43
+meta-data#MEIZUPUSH_APPKEY
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:69:9-72:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:72:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:71:13-64
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:70:13-44
+meta-data#com.hihonor.push.app_id
+ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:74:9-77:45
+	tools:replace
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:77:13-42
+	android:value
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:76:13-34
+	android:name
+		ADDED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml:75:13-51
 uses-sdk
 INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/src/main/AndroidManifest.xml

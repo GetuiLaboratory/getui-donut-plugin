@@ -1,0 +1,5 @@
+-keep class com.igexin.** { *; }
+-keep class com.xiaomi.** { *; }
+-keep class com.igexin.sdk.MiuiPushReceiver {*;}
+-dontwarn com.igexin.**
+-dontwarn com.xiaomi.**

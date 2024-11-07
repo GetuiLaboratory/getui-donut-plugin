@@ -29,6 +29,23 @@
                         "endColumns": "100",
                         "endOffsets": "2953"
                     }
+                },
+                {
+                    "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d61685e28868cea5ca0719b64b8f57f4/wxed34e654870cba42-0.0.2/res/values-af/values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "73",
+                        "endOffsets": "124"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "2958",
+                        "endColumns": "73",
+                        "endOffsets": "3027"
+                    }
                 }
             ]
         }

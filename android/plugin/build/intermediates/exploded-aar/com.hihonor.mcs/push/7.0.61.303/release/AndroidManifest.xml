@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hihonor.push.sdk"
+    android:versionCode="70061303"
+    android:versionName="7.0.61.303" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO" />
+
+    <application>
+        <meta-data
+            android:name="com.hihonor.push.sdk_version"
+            android:value="7.0.61.303" />
+    </application>
+
+</manifest>

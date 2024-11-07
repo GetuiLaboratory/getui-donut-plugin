@@ -9,7 +9,17 @@
 流程： 开发者需要先加载插件，后调用插件具体API，比如startSdk
 
 
-## android API说明：
+## Android 使用说明：
+插件桥接了原生SDK API，原生SDK API具体说明可参考[官网文档中心 Android API](https://docs.getui.com/getui/mobile/android/api/)
+
+### Android appid配置：
+由于donut还未开放多meta-data配置，和manifestPlaceholders配置.
+还需要在插件中的AndroidManifest.xml配置相关推送参数
+参考：https://docs.getui.com/getui/mobile/vendor/androidstudio/ 的1.3 配置应用参数
+
+如:
+查看插件AndroidManifest.xml,已经有例子
+
 
 ## iOS 使用说明：
 插件桥接了原生SDK API，原生SDK API具体说明可参考[官网文档中心 iOS API](https://docs.getui.com/getui/mobile/ios/api/)

@@ -8,16 +8,16 @@
         "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/res/layout/layout.xml"
     },
     {
-        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/build/intermediates/res/merged/arm/debug/drawable_progress_medium_holo.xml.flat",
-        "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/res/drawable/progress_medium_holo.xml"
-    },
-    {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/build/intermediates/res/merged/arm/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/build/intermediates/res/merged/arm/debug/drawable_progress_large_holo.xml.flat",
         "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/res/drawable/progress_large_holo.xml"
+    },
+    {
+        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/build/intermediates/res/merged/arm/debug/drawable_progress_medium_holo.xml.flat",
+        "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/src/main/res/drawable/progress_medium_holo.xml"
     },
     {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/app/build/intermediates/res/merged/arm/debug/drawable-hdpi_splashscreen.xml.flat",

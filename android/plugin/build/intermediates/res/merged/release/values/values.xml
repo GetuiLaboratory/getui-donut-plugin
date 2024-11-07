@@ -205,6 +205,33 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="emui_color_gray_1">
+    
+    
+    
+    #F2F2F2
+  
+  
+  
+  </color>
+    <color name="emui_color_gray_10">
+    
+    
+    
+    #191919
+  
+  
+  
+  </color>
+    <color name="emui_color_gray_7">
+    
+    
+    
+    #808080
+  
+  
+  
+  </color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
@@ -253,6 +280,33 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="upsdk_blue_text_007dff">
+    
+    
+    
+    #007dff
+  
+  
+  
+  </color>
+    <color name="upsdk_category_button_select_pressed">
+    
+    
+    
+    #0076f2
+  
+  
+  
+  </color>
+    <color name="upsdk_white">
+    
+    
+    
+    #FFFFFFFF
+  
+  
+  
+  </color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -384,6 +438,24 @@
     <dimen name="design_textinput_caption_translate_y">5dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="emui_master_body_2">
+    
+    
+    
+    13sp
+  
+  
+  
+  </dimen>
+    <dimen name="emui_master_subtitle">
+    
+    
+    
+    15sp
+  
+  
+  
+  </dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -397,6 +469,33 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="margin_l">
+    
+    
+    
+    16dp
+  
+  
+  
+  </dimen>
+    <dimen name="margin_m">
+    
+    
+    
+    8dp
+  
+  
+  
+  </dimen>
+    <dimen name="margin_xs">
+    
+    
+    
+    2dp
+  
+  
+  
+  </dimen>
     <dimen name="mtrl_bottomappbar_fabOffsetEndMode">60dp</dimen>
     <dimen name="mtrl_bottomappbar_fab_cradle_margin">5dp</dimen>
     <dimen name="mtrl_bottomappbar_fab_cradle_rounded_corner_radius">8dp</dimen>
@@ -560,7 +659,6 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">sdk</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -568,14 +666,413 @@
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hms_abort" priority="translator">
+    
+    
+    
+    Stop
+  
+  
+  
+  </string>
+    <string name="hms_abort_message" priority="translator">
+    
+    
+    
+    Stop downloading?
+  
+  
+  
+  </string>
+    <string name="hms_apk_not_installed_hints" priority="LT">Some features in %1$s may not work properly without HMS Core, which is not installed on your device.</string>
+    <string name="hms_bindfaildlg_message" priority="LT">%1$s is unable to use HMS Core. Launch Optimizer (Phone Manager) or go to Settings, enable all permissions for %2$s (including auto-launch and secondary launch), and try again.</string>
+    <string name="hms_bindfaildlg_title">@string/hms_spoof_hints</string>
+    <string name="hms_cancel" priority="translator">
+    
+    
+    
+    Cancel
+  
+  
+  
+  </string>
+    <string name="hms_check_failure" priority="translator">
+    
+    
+    
+    Failed to check for updates.
+  
+  
+  
+  </string>
+    <string name="hms_check_no_update" priority="translator">
+    
+    
+    
+    You are already using the latest version.
+  
+  
+  
+  </string>
+    <string name="hms_checking" priority="translator">
+    
+    
+    
+    Checking for updates…
+  
+  
+  
+  </string>
+    <string name="hms_confirm" priority="translator">OK</string>
+    <string name="hms_download_failure" priority="translator">
+    
+    
+    
+    Failed to download Huawei Mobile Services package.
+  
+  
+  
+  </string>
+    <string name="hms_download_no_space" priority="translator">
+    
+    
+    
+    Not enough free space. Download cannot be completed.
+  
+  
+  
+  </string>
+    <string name="hms_download_retry" priority="translator">
+    
+    
+    
+    Download failed. Try again?
+  
+  
+  
+  </string>
+    <string name="hms_downloading" priority="translator">
+    
+    
+    
+    Downloading Huawei Mobile Services\nprogress: %d%%
+  
+  
+  
+  </string>
+    <string name="hms_downloading_loading" priority="LT">
+    
+    
+    
+    Downloading
+  
+  
+  
+  </string>
+    <string name="hms_downloading_new" priority="LT">
+    
+    
+    
+    Downloading HMS
+  
+  
+  
+  </string>
+    <string name="hms_gamebox_name" priority="LT">
+    
+    
+    
+    HUAWEI GameCenter
+  
+  
+  
+  </string>
+    <string name="hms_install" priority="translator">
+    
+    
+    
+    Install
+  
+  
+  
+  </string>
+    <string name="hms_install_message" priority="translator">
+    
+    
+    
+    Huawei Mobile Services must be installed to use this feature. Install?
+  
+  
+  
+  </string>
+    <string name="hms_is_spoof" priority="LT">It appears that you have an unofficial version of HMS Core (%1$s) installed on your device. Please uninstall HMS Core from Settings and return to this app to install the official version.</string>
+    <string name="hms_push_channel" priority="LT">
+    Default
+  </string>
+    <string name="hms_retry" priority="translator">
+    
+    
+    
+    Retry
+  
+  
+  
+  </string>
+    <string name="hms_spoof_hints" priority="LT">Note</string>
+    <string name="hms_update" priority="translator">
+    
+    
+    
+    Update
+  
+  
+  
+  </string>
+    <string name="hms_update_message" priority="translator">
+    
+    
+    
+    Update to the latest version of Huawei Mobile Services to use this feature. Update now?
+  
+  
+  
+  </string>
+    <string name="hms_update_message_new" priority="LT">
+    
+    
+    
+    This service requires the latest version of the following app:\n\n%1$s
+  
+  
+  
+  </string>
+    <string name="hms_update_title" priority="translator">
+    
+    
+    
+    Huawei Mobile Services
+  
+  
+  
+  </string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="push_cat_body" translatable="false">99A9343CEC0A64112FD2496EF752F719</string>
+    <string name="push_cat_head" translatable="false">767499AE5B2DFC9D873AF46032E13B00</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_default_channel">System Default Channel</string>
+    <string name="upsdk_app_dl_installing" priority="LT">
+    
+    
+    
+    Downloading AppGallery
+  
+  
+  
+  </string>
+    <string name="upsdk_app_download_info_new" priority="LT">
+    
+    
+    
+    Install
+  
+  
+  
+  </string>
+    <string name="upsdk_app_size" priority="LT">
+    
+    
+    
+    Size
+  
+  
+  
+  </string>
+    <string name="upsdk_app_version" priority="LT">
+    
+    
+    
+    Version
+  
+  
+  
+  </string>
+    <string name="upsdk_cancel" priority="LT">
+    
+    
+    
+    Cancel
+  
+  
+  
+  </string>
+    <string name="upsdk_checking_update_prompt" priority="LT">
+    
+    
+    
+    Checking for updates…
+  
+  
+  
+  </string>
+    <string name="upsdk_choice_update" priority="LT">
+    
+    
+    
+    Update available. Please download and install the latest version.
+  
+  
+  
+  </string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">
+    
+    
+    
+    Unable to connect to server. Please try again later.
+  
+  
+  
+  </string>
+    <string name="upsdk_detail" priority="LT">
+    
+    
+    
+    Details
+  
+  
+  
+  </string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">
+    
+    
+    
+    Unable to retrieve information. Please try again later.
+  
+  
+  
+  </string>
+    <string name="upsdk_install" priority="LT">
+    
+    
+    
+    Install AppGallery to update. Install now?
+  
+  
+  
+  </string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">
+    
+    
+    
+    No Internet connection. Please check your network settings.
+  
+  
+  
+  </string>
+    <string name="upsdk_ota_app_name" priority="LT">
+    
+    
+    
+    App
+  
+  
+  
+  </string>
+    <string name="upsdk_ota_cancel" priority="LT">
+    
+    
+    
+    Later
+  
+  
+  
+  </string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">
+    
+    
+    
+    Exit
+  
+  
+  
+  </string>
+    <string name="upsdk_ota_notify_updatebtn" priority="LT">
+    
+    
+    
+    Update
+  
+  
+  
+  </string>
+    <string name="upsdk_ota_title" priority="LT">
+    
+    
+    
+    New version
+  
+  
+  
+  </string>
+    <string name="upsdk_storage_utils" priority="LT">
+    
+    
+    
+    %1$s MB
+  
+  
+  
+  </string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">
+    
+    
+    
+    Cancel the installation?
+  
+  
+  
+  </string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">
+    
+    
+    
+    Installation failed.
+  
+  
+  
+  </string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">
+    
+    
+    
+    Yes
+  
+  
+  
+  </string>
+    <string name="upsdk_update_check_no_new_version" priority="LT">
+    
+    
+    
+    You are already using the latest version.
+  
+  
+  
+  </string>
+    <string name="upsdk_updating" priority="LT">
+    
+    
+    
+    Updating
+  
+  
+  
+  </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2000,6 +2497,9 @@
     <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
     <item name="boxStrokeColor">?attr/colorControlActivated</item>
   </style>
+    <style name="Base_Translucent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
     <style name="CardView" parent="Base.CardView">
     </style>
     <style name="CardView.Dark">
@@ -2912,6 +3412,35 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
+    <style name="upsdkDlDialog" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowBackground">
+      
+      
+      
+      @android:color/transparent
+    
+    
+    
+    </item>
+    <item name="android:windowNoTitle">
+      
+      
+      
+      true
+    
+    
+    
+    </item>
+    <item name="android:windowIsTranslucent">
+      
+      
+      
+      true
+    
+    
+    
+    </item>
+  </style>
     <declare-styleable name="ActionBar">
         <!-- The type of navigation to use. -->
         <attr name="navigationMode">

@@ -1,0 +1,75 @@
+ext {
+
+    GTSDK = [
+            dependency   : 'com.getui:gtsdk',
+            version      : '3.3.8.0',
+            exploadedPath: 'com.getui/gtsdk/',
+//            dependency   : 'GTSDK-3.3.1.1-release',
+//            version      : '3.3.1.1',
+//            exploadedPath: 'GTSDK-3.3.1.1-release',
+//            type         : 'aar'
+    ]
+
+    GTC = [
+            dependency   : 'com.getui:gtc',
+            version      : '3.2.17.0',
+            exploadedPath: 'com.getui/gtc/',
+            compileOnly  :  true,
+//            dependency   : 'GTC-3.2.8.4-release',
+//            version      : '3.2.8.4',
+//            exploadedPath: 'GTC-3.2.8.4-release',
+//            type         : 'aar'
+    ]
+
+    MULTI_VENDOR = [
+            HUAWEI         : [
+                    enable       : true,
+                    dependency   : 'com.getui.opt:hwp',
+                    version      : '3.1.2',
+                    exploadedPath: 'com.getui.opt/hwp/',
+            ],
+            HUAWEI_HMS_PUSH: [
+                    enable       : true,
+                    dependency   : 'com.huawei.hms:push',
+                    version      : '6.12.0.300',
+                    exploadedPath: 'com.huawei.hms/push/',
+            ],
+            XIAOMI         : [
+                    enable       : true,
+                    dependency   : 'com.getui.opt:xmp',
+                    version      : '3.3.1',
+                    exploadedPath: 'com.getui.opt/xmp/',
+            ],
+            OPPO           : [
+                    enable       : true,
+                    dependency   : 'com.assist-v3:oppo',
+                    version      : '3.4.0',
+                    exploadedPath: 'com.assist-v3/oppo/',
+            ],
+            VIVO           : [
+                    enable       : true,
+                    dependency   : 'com.assist-v3:vivo',
+                    version      : '3.1.2',
+                    exploadedPath: 'com.assist-v3/vivo/',
+            ],
+            MEIZU          : [
+                    enable       : true,
+                    dependency   : 'com.getui.opt:mzp',
+                    version      : '3.2.3',
+                    exploadedPath: 'com.getui.opt/mzp/',
+            ],
+            UPS            : [
+                    enable       : true,
+                    dependency   : 'com.getui.opt:ups',
+                    version      : '3.0.3',
+                    exploadedPath: 'com.getui.opt/ups/',
+            ],
+            HONOR          : [
+                    enable       : true,
+                    dependency   : 'com.getui.opt:honor',
+                    version      : '3.6.0',
+                    exploadedPath: 'com.getui.opt/honor/',
+            ]
+    ]
+}
+

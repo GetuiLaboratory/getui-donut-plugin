@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/mtrl_btn_bg_color_selector.xml",
-        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/color/mtrl_btn_bg_color_selector.xml"
-    },
-    {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/mtrl_tabs_icon_color_selector_colored.xml",
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/color/mtrl_tabs_icon_color_selector_colored.xml"
+    },
+    {
+        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/mtrl_btn_bg_color_selector.xml",
+        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/color/mtrl_btn_bg_color_selector.xml"
     },
     {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/mtrl_fab_ripple_color.xml",
@@ -20,12 +20,12 @@
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/color/mtrl_btn_text_btn_ripple_color.xml"
     },
     {
-        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/mtrl_btn_ripple_color.xml",
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/24252e9d32bfb7bbe2fc4ae1320ad0ca/material-1.0.0/res/color/mtrl_btn_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/mtrl_tabs_colored_ripple_color.xml",
@@ -116,12 +116,12 @@
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",

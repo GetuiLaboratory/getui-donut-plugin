@@ -56,9 +56,6 @@
             android:launchMode="singleTask"
             android:exported="true" />
 
-        <meta-data
-            android:name="GETUI_APPID"
-            android:value="djYjSlFVMf6p5YOy2OQUs8"/>
 
     </application>
 

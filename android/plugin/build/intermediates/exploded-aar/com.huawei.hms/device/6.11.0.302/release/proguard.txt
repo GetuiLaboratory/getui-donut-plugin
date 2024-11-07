@@ -1,0 +1,17 @@
+-keep class com.huawei.hms.utils.** {public *;}
+
+-keep class !com.huawei.hms.common.internal.BindResolveClients$*,
+    !com.huawei.hms.common.internal.HmsClient$BaseAdapterCallBack,
+    !com.huawei.hms.common.HuaweiApi$RequestRunnable,
+    com.huawei.hms.common.** {public *;}
+
+-keep class com.huawei.hms.android.** {public *;}
+-keep public class com.huawei.hms.support.log.common.Base64 {public *;}
+-keep public class com.huawei.hms.support.gentyref.GenericTypeReflector {public *;}
+-keep class com.huawei.hms.device.** {public *;}
+
+-keep class org.apache.http.conn.ssl.BrowserCompatHostnameVerifier {public *;}
+-keep class org.apache.http.conn.ssl.StrictHostnameVerifier {public *;}
+-keep class org.apache.http.conn.ssl.X509HostnameVerifier {public *;}
+
+-keep class org.apache.http.conn.ssl.SSLSocketFactory {public *;}

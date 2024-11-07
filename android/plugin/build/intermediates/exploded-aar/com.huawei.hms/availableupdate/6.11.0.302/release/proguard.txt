@@ -1,0 +1,18 @@
+-keep class !com.huawei.hms.update.manager.HmsApkReallySizeManager$*,
+    !com.huawei.hms.update.manager.ThirdPartyMarketConfigManager$*,
+    !com.huawei.hms.update.ui.AppTouchWizard$SizeCallback,
+    !com.huawei.hms.update.ui.DownloadProgress$*,
+    !com.huawei.hms.update.ui.ConfirmDialogs$*,
+    !com.huawei.hms.update.ui.HiappWizard$SizeCallback,
+    !com.huawei.hms.update.ui.HwAlertController$CheckedItemAdapter,
+    !com.huawei.hms.update.ui.HwAlertController$ListViewScrollListener,
+    !com.huawei.hms.update.ui.HwAlertController$BtnHandler,
+    !com.huawei.hms.update.ui.SilentUpdateWizard$*,
+    !com.huawei.hms.update.ui.PromptDialogs$*,
+    !com.huawei.hms.update.ui.ThirdPartyMarketWizard$*,
+    !com.huawei.hms.update.ui.UpdateWizard$SizeCallback,
+    com.huawei.hms.update.** {public *;}
+
+-keep class !com.huawei.hms.adapter.BaseAdapter$MPendingResultImpl, com.huawei.hms.adapter.** {public *;}
+-keep class com.huawei.hms.base.** {public *;}
+-keep class com.huawei.hms.availableupdate.** {public *;}

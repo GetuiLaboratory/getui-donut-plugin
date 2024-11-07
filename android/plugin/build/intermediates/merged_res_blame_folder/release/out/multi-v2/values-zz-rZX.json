@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/values-zz-rZX/values-zz-rZX.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.getui.opt/hwp/3.1.2/release/res/values-zz-rZX/values-zz-rZX.xml",
+                    "from": {
+                        "startLines": "1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "14,83,173,245,346,462,551,677,806,907,1028,1120,1210,1299,1373,1518,1588,1660,1821,1969",
+                        "endLines": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "80,170,242,343,459,548,674,803,904,1025,1117,1207,1296,1370,1515,1585,1657,1818,1966,2060"
+                    },
+                    "to": {
+                        "startLines": "2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,77,82,87,92,97",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,218,292,395,513,604,732,863,966,1089,1183,1275,1366,1442,1589,1661,1735,1898,2048",
+                        "endLines": "6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,101",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "121,213,287,390,508,599,727,858,961,1084,1178,1270,1361,1437,1584,1656,1730,1893,2043,2139"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zz-rZX/values-zz-rZX.xml",
+            "map": [
+                {
+                    "source": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/exploded-aar/com.getui.opt/hwp/3.1.2/release/res/values-zz-rZX/values-zz-rZX.xml",
+                    "from": {
+                        "startLines": "1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "14,83,173,245,346,462,551,677,806,907,1028,1120,1210,1299,1373,1518,1588,1660,1821,1969",
+                        "endLines": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "80,170,242,343,459,548,674,803,904,1025,1117,1207,1296,1370,1515,1585,1657,1818,1966,2060"
+                    },
+                    "to": {
+                        "startLines": "2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,77,82,87,92,97",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,218,292,395,513,604,732,863,966,1089,1183,1275,1366,1442,1589,1661,1735,1898,2048",
+                        "endLines": "6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,101",
+                        "endColumns": "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11",
+                        "endOffsets": "121,213,287,390,508,599,727,858,961,1084,1178,1270,1361,1437,1584,1656,1730,1893,2043,2139"
+                    }
+                }
+            ]
+        }
+    ]
+}

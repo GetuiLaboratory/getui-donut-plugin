@@ -14,10 +14,7 @@
         "certificate": ""
       }
     },
-    "channel": {
-      "name": "GETUI_APPID",
-      "value": "djYjSlFVMf6p5YOy2OQUs8"
-    },
+  
     "sdkVersion": "1.4.10",
     "toolkitVersion": "0.8.0",
     "useExtendedSdk": {

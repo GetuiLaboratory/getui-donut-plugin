@@ -1,0 +1,13 @@
+-ignorewarnings
+-keepattributes *Annotation*
+-keepattributes Exceptions
+-keepattributes InnerClasses
+-keepattributes Signature
+-keepattributes SourceFile,LineNumberTable
+-keep class com.hihonor.push.**{*;}
+
+-keep class com.igexin.** { *; }
+-dontwarn com.igexin.**
+
+-keep class com.hihonor.** { *; }
+-dontwarn com.hihonor.**

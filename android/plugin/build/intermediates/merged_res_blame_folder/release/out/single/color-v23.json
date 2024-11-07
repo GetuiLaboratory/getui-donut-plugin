@@ -24,19 +24,19 @@
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_edittext.xml"
+        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
         "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/yangsihao/Downloads/AndroidStudioProjects/donut/getui-donut-plugin/android/plugin/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/yangsihao/.gradle/caches/transforms-2/files-2.1/d37116f996a98f4be2a59256b515c2fa/appcompat-1.0.0/res/color-v23/abc_tint_edittext.xml"
     }
 ]
