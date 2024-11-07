@@ -1,2 +1,0 @@
-int string app_name 0x0
-int string system_default_channel 0x0

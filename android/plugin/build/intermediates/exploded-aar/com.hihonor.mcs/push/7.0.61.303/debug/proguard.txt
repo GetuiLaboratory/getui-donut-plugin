@@ -1,6 +1,0 @@
-
--keep class com.hihonor.push.framework.aidl.**{*;}
--keep class com.hihonor.push.sdk.common.data.**{*;}
-
--keep class com.hihonor.push.framework.aidl.**{*;}
--keep class com.hihonor.push.sdk.common.data.**{*;}

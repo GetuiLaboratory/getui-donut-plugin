@@ -1,5 +1,0 @@
--keep class com.huawei.hms.ui.** {public *;}
--keep class !com.huawei.hms.activity.ForegroundBusDelegate$*, com.huawei.hms.activity.** {public *;}
--keep class com.huawei.hms.utils.** {public *;}
--keep class com.huawei.hms.base.** {public *;}
--keep public class com.huawei.hms.support.common.ActivityMgr {public *;}

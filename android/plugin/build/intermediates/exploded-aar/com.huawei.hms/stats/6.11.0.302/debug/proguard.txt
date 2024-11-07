@@ -1,8 +1,0 @@
--keep class com.huawei.hms.utils.** {public *;}
--keep public class com.huawei.hms.support.hianalytics.HiAnalyticsClient {public *;}
--keep public class com.huawei.hms.support.hianalytics.HiAnalyticsConstant {public *;}
--keep public class com.huawei.hms.support.hianalytics.HiAnalyticsUtils {public *;}
--keep class com.huawei.hms.support.hianalytics.HiAnalyticsConstant$KeyAndValue {public *;}
--keep class com.huawei.hms.support.hianalytics.HiAnalyticsConstant$HaKey {public *;}
--keep class com.huawei.hms.support.hianalytics.HiAnalyticsConstant$Direction {public *;}
--keep class com.huawei.hms.stats.** {public *;}

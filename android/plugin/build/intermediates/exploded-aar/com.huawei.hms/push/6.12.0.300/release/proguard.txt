@@ -1,1 +1,0 @@
--keep public class com.huawei.hms.support.api.entity.push.* { *; }

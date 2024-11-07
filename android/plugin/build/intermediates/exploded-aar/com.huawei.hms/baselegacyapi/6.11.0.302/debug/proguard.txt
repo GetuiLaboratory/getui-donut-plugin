@@ -1,7 +1,0 @@
--keep public class com.huawei.hms.api.* {*;}
--keep public class com.huawei.hms.common.api.* {*;}
--keep public class com.huawei.hms.common.internal.AutoLifecycleFragment {*;}
--keep public class com.huawei.hms.support.api.client.* {*;}
--keep public class com.huawei.hms.support.api.core.* {*;}
--keep public class com.huawei.hms.support.api.entity.core.* {*;}
--keep public class com.huawei.hms.support.api.ResolvePendingResult {*;}
