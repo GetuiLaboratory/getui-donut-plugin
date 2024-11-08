@@ -16,10 +16,22 @@
 由于donut还未开放多meta-data配置，和manifestPlaceholders配置.
 还需要在插件中的AndroidManifest.xml配置相关推送参数
 参考：https://docs.getui.com/getui/mobile/vendor/androidstudio/ 的1.3 配置应用参数
-
+```js
 如:
-查看插件AndroidManifest.xml,已经有例子
+查看插件plugin AndroidManifest.xml,已经有例子
+      <!--TODO：测试参数，上传插件时替换成自己的-->
+        <meta-data
+            android:name="GETUI_APPID"
+            android:value="djYjSlFVMf6p5YOy2OQUs8"
+            tools:replace="android:value" />
 
+        <!--TODO：厂商全不用可以填android:value="*" 不能删除meta-data，
+        TODO：下面例子中部分value携带"厂商_",如XM_ ， 填写value值"厂商_"不要动，正确值如："XM_你的值" -->
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="102527745"
+            tools:replace="android:value" />
+```
 
 ## iOS 使用说明：
 插件桥接了原生SDK API，原生SDK API具体说明可参考[官网文档中心 iOS API](https://docs.getui.com/getui/mobile/ios/api/)

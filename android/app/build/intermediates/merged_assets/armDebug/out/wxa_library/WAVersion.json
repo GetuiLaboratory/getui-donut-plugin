@@ -1,0 +1,103 @@
+{
+  "updateTime": "2024.8.7 14:49:07",
+  "version": "3.2.5",
+  "features": {
+    "pruneWxConfigByPage": true,
+    "injectGameContextPlugin": true,
+    "lazyCodeLoading2": true,
+    "lazyCodeLoadingForDevTool": true,
+    "injectAppSeparatedPlugin": true,
+    "nativeTrans": true,
+    "gameLive": true,
+    "skyline": true,
+    "supportInvokeWithAppId": true,
+    "wkFeatureVersion": 4,
+    "delayedServiceCodeCache": true,
+    "gameLiveInvite": true,
+    "globalConsole": true,
+    "earlyDispatchSubPkgReady": true,
+    "glassEasel": 1,
+    "expt": [
+      "clicfg_appbrand_ios_native_download_new",
+      "clicfg_appbrand_native_download",
+      "clicfg_appbrand_ios_native_socket_wcwss_new",
+      "clicfg_appbrand_ios_native_readfile",
+      "clicfg_appbrand_native_readfile",
+      "clicfg_appbrand_android_tcp_buffer",
+      "clicfg_appbrand_ios_tcp_buffer",
+      "clicfg_weapp_weak_net_predict_local",
+      "clicfg_wa_ar_iosurface_switch",
+      "clicfg_appbrand_report_trace_event",
+      "clicfg_appbrand_skyline_text_style",
+      "clicfg_appbrand_ios_free_httpdns_sdk_cache",
+      "clicfg_appbrand_android_free_httpdns_sdk_cache",
+      "clicfg_appbrand_ios_inneraudio2webaudio",
+      "clicfg_appbrand_android_inneraudio2webaudio",
+      "clicfg_appbrand_ios_inneraudio2webaudio_usewebaudio",
+      "clicfg_appbrand_android_inneraudio2webaudio_usewebaudio",
+      "clicfg_appbrand_ios_allow_multi_context_worker",
+      "clicfg_appbrand_ios_allow_worker_binding_message",
+      "clicfg_appbrand_ios_game_split_multi_plugincode",
+      "clicfg_appbrand_game_split_multi_plugincode",
+      "clicfg_appbrand_ios_arkit2wevision_usewevision",
+      "clicfg_appbrand_ios_arkit2wevision_usevertialplane",
+      "clicfg_appbrand_ios_enable_async_create_request_task",
+      "clicfg_appbrand_ios_use_jsapi_args_binding",
+      "clicfg_appbrand_android_inneraudio2webaudio_stream",
+      "clicfg_appbrand_ios_inneraudio2webaudio_stream",
+      "clicfg_appbrand_webview_slow_frame",
+      "clicfg_appbrand_webview_native_intersection_observer",
+      "clicfg_appbrand_ios_control_close_condom_white",
+      "clicfg_appbrand_android_control_close_condom_white",
+      "clicfg_appbrand_android_use_game_delay_codecache",
+      "clicfg_appbrand_android_product_recommand_new",
+      "clicfg_appbrand_ios_product_recommand_new",
+      "clicfg_appbrand_android_xnet_binding",
+      "clicfg_appbrand_ios_paymentad_expose_after_click",
+      "clicfg_appbrand_android_paymentad_expose_after_click",
+      "clicfg_appbrand_ios_game_shangcheng_kefu",
+      "clicfg_ting_weapp_audio_switch",
+      "clicfg_ting_android_weapp_audio_switch"
+    ],
+    "snapshotConfig": {
+      "game:main": [
+        "WAGame.js"
+      ],
+      "game:sub": [
+        "WAGameSubContext.js"
+      ]
+    },
+    "mayHaveSnapshot": [
+      "WAServiceMainContext.js",
+      "WASubContext.js",
+      "WARenderContext.js",
+      "WAGame.js",
+      "WAGameSubContext.js"
+    ],
+    "pcSnapshotConfig": {
+      "minigame": {
+        "iframeDomain": {
+          "mainContext": [
+            "WAGame.js"
+          ],
+          "gameContext": [
+            "WAGameSubContext.js"
+          ]
+        },
+        "workerDomain": {}
+      },
+      "miniprogram": {
+        "iframeDomain": {},
+        "workerDomain": {
+          "main_context": [
+            "WAServiceMainContext.js"
+          ],
+          "sub_context": [
+            "WASubContext.js"
+          ]
+        }
+      }
+    }
+  },
+  "debugOptions": {}
+}
