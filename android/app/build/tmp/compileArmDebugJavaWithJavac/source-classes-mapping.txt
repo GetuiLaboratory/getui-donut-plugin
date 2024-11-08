@@ -1,2 +1,0 @@
-com/tencent/weauth/BuildConfig.java
- com.tencent.weauth.BuildConfig
