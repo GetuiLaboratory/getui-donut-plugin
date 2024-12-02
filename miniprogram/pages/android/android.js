@@ -33,6 +33,7 @@ Page({
         this.setData({
           myPlugin: plugin
         })
+        plugin.openNotification()
       },
       fail: (e) => {
         console.log('load plugin fail', e)

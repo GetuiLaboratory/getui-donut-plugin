@@ -5,6 +5,10 @@
 # **概述**
 
 个推消息推送SDK在 [donut平台](https://dev.weixin.qq.com)的插件示例，使用此模块实现服务端向客户端推送通知和透传消息的功能等。开发者需要将插件源码上传到donut插件管理库中使用。
+* 在插件工程中创建自己的donut插件, 当前微信规定donut插件发布后不能给其他app使用
+* 将个推的插件代码移到自己的自己插件工程中, 注意插件id修改
+* 构建插件产物,并上传
+* 在多端工程中,应用插件
 
 流程： 开发者需要先加载插件，后调用插件具体API，比如startSdk
 
@@ -106,6 +110,8 @@ usage() {
    myPlugin.setSilentTime({"beginHour":10,"duration":5})
   //(Android)自定义回执
   myPlugin.sendFeedbackMessage({"taskid":"sddddd","messageid":"ddd","actionid":90002})
+  //(Android)指引用户打开权限开关
+  myPlugin.openNotification()
 
   	//绑定别名
     myPlugin.bindAlias({

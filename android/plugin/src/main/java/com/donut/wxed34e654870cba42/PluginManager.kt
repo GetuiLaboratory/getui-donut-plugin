@@ -206,6 +206,10 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
         PushManager.getInstance().setBadgeNum(activity.applicationContext, obj["badge"] as Int);
     }
 
+    @SyncJsApi(methodName = "openNotification")
+    fun openNotification(obj: JSONObject?, activity: Activity) {
+        PushManager.getInstance().openNotification(activity.applicationContext);
+    }
 
     fun toMap(bean: Any): Map<String, Any?> {
         val memberProperties = bean::class.memberProperties
