@@ -1,83 +1,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.donut.wxed34e654870cba42">
+    package="com.donut.wx341dde1fd385d9eb">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.POST_NOTIFICATION" />
 
-    <application>
+    <application >
+
         <service xmlns:android="http://schemas.android.com/apk/res/android"
-            android:name=".PluginPushService" />
+            android:name=".PluginPushService"
+            android:process=":pushservice"
+            />
+
         <service xmlns:android="http://schemas.android.com/apk/res/android"
             android:name=".PluginIntentService" />
-
-
-        <!--TODO: 由于donut还未开放多meta-data配置，和manifestPlaceholders配置， 需要在插件中配置相关推送参数，
-          TODO: 参考：https://docs.getui.com/getui/mobile/vendor/androidstudio/ 的1.3 配置应用参数
-        -->
-
         <!--TODO：测试参数，上传插件时替换成自己的-->
         <meta-data
-            android:name="GETUI_APPID"
+            android:name="PUSH_APPID"
             android:value="djYjSlFVMf6p5YOy2OQUs8"
             tools:replace="android:value" />
-
-        <!--TODO：厂商全不用可以填android:value="*" 不能删除meta-data，
-        TODO：下面例子中部分value携带"厂商_",如XM_ ， 填写value值"厂商_"不要动，正确值如："XM_你的值" -->
-        <meta-data
-            android:name="com.huawei.hms.client.appid"
-            android:value="102527745"
-            tools:replace="android:value" />
-
-        <meta-data
-            android:name="MIPUSH_APPID"
-            android:value="XM_2882303761518401094"
-            tools:replace="android:value" />
-        <meta-data
-            android:name="MIPUSH_APPKEY"
-            android:value="XM_5301840122094"
-            tools:replace="android:value" />
-
-        <meta-data
-            android:name="OPPOPUSH_APPKEY"
-            android:value="OP_6a59a992cd46469aaa6ca9857a035e0c"
-            tools:replace="android:value" />
-        <meta-data
-            android:name="OPPOPUSH_APPSECRET"
-            android:value="OP_29d76998a6a04e00b901e4457b1fdfa0"
-            tools:replace="android:value" />
-
-        <meta-data
-            android:name="com.vivo.push.api_key"
-            android:value="85230e35-6087-415c-bd3e-451f4835a1ef"
-            tools:replace="android:value" />
-        <meta-data
-            android:name="com.vivo.push.app_id"
-            android:value="17675"
-            tools:replace="android:value" />
-        <meta-data
-            android:name="api_key"
-            android:value="85230e35-6087-415c-bd3e-451f4835a1ef"
-            tools:replace="android:value" />
-        <meta-data
-            android:name="app_id"
-            android:value="17675"
-            tools:replace="android:value" />
-
-        <meta-data
-            android:name="MEIZUPUSH_APPID"
-            android:value="MZ_145221"
-            tools:replace="android:value" />
-        <meta-data
-            android:name="MEIZUPUSH_APPKEY"
-            android:value="MZ_79e81a8441644ffba489a4301feef8dd"
-            tools:replace="android:value" />
-
-        <meta-data
-            android:name="com.hihonor.push.app_id"
-            android:value="*****"
-            tools:replace="android:value" />
-
     </application>
 
 </manifest>

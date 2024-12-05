@@ -29,12 +29,6 @@
             android:value="djYjSlFVMf6p5YOy2OQUs8"
             tools:replace="android:value" />
 
-        <!--TODO：厂商全不用可以填android:value="*" 不能删除meta-data，
-        TODO：下面例子中部分value携带"厂商_",如XM_ ， 填写value值"厂商_"不要动，正确值如："XM_你的值" -->
-        <meta-data
-            android:name="com.huawei.hms.client.appid"
-            android:value="102527745"
-            tools:replace="android:value" />
 ```
 
 ## iOS 使用说明：
@@ -104,7 +98,7 @@ usage() {
    myPlugin.turnOnPush()
    // (Android)推送状态 
    myPlugin.isPushTurnedOn()
-   // (Android)推送状态 
+   // (Android)推送状态 , gp没有
    myPlugin.queryTag({"an":"121212"})
    // (Android)静默时段
    myPlugin.setSilentTime({"beginHour":10,"duration":5})

@@ -1,5 +1,3 @@
-import java.text.SimpleDateFormat
-
 buildscript {
     repositories {
         mavenCentral()
@@ -9,31 +7,20 @@ buildscript {
         classpath 'com.github.kezong:fat-aar:1.3.8'
     }
 }
-//TODO：使用华为推送待配置项
-//添加插件com.huawei.agconnect' ==>  参考：https://developers.weixin.qq.com/miniprogram/dev/platform-capabilities/miniapp/handbook/plugin/androidPlugin.html
-//添加agconnect-services.json文件  ==>   参考： https://developers.weixin.qq.com/miniprogram/dev/platform-capabilities/miniapp/handbook/devtools/android-native-resource.html
+
+//TODO：使用FCM推送待配置项
+//添加插件 com.google.gms.google-services ' ==>  参考：https://developers.weixin.qq.com/miniprogram/dev/platform-capabilities/miniapp/handbook/plugin/androidPlugin.html
+//添加google-services.json文件  ==>   参考： https://developers.weixin.qq.com/miniprogram/dev/platform-capabilities/miniapp/handbook/devtools/android-native-resource.html
 
 
 apply from: rootProject.file('gradle/build_library.gradle')
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.kezong.fat-aar'
-apply from: './config.gradle'
 
-def LOCAL_DEBUG = false
-
-def getVendorEnable(String vendor) {
-    return MULTI_VENDOR[vendor]?.enable ?: false
-}
-
-if (getVendorEnable("HUAWEI")) {
-}
-
-if (!LOCAL_DEBUG.toBoolean()) {
-    apply from: './processResFiles.gradle'
-}
 
 android {
+
     def miniAppPluginConfig = rootProject.ext.miniAppPluginConfig
     defaultConfig {
         buildConfigField "String", "PLUGIN_ID", "\"$miniAppPluginConfig.pluginId\""
@@ -82,92 +69,21 @@ if (!file("$libsDir/com/tencent/luggage/wxa-standalone-open-runtime-SaaA-plugin-
     file(zipFilePath).delete()
 }
 
+
 fataar {
     /**
      * 如果你想将所有远程依赖在pom中声明的依赖项同时打入在最终产物里的话，
      * 你需要在build.gradle中将transitive值改为true
      * @since 1.3.0
      */
-    transitive = true
-}
-
-static def getCurrentTime2() {
-    def now = new Date()
-    def df = new SimpleDateFormat("yyyyMMddHHmmss")
-    return df.format(now)
-}
-
-
-if (!LOCAL_DEBUG) {
-    project.afterEvaluate {
-        project.tasks.getByName("bundleReleaseAar").doFirst {
-            def libFile = new File("${project.buildDir.getAbsolutePath()}/intermediates/aar_libs_directory/release/libs")
-            if (libFile.exists()) {
-                println("${libFile.absolutePath} exists")
-                libFile.listFiles().each {
-                    println(it.getName() + "====>")
-                    if (it.getName().startsWith("annotation-1.0.0")) {
-                        delete(it.absolutePath)
-                    }
-                }
-            } else {
-                println("${libFile.absolutePath} not exists")
-            }
-            //        delete("${project.buildDir.getAbsolutePath()}/aar_libs_directory/release/libs")
-        }
-
-        project.tasks.getByName("reBundleAarRelease").doLast {
-            copy {
-                from "${project.buildDir.getAbsolutePath()}/outputs/aar/${project.name}-release.aar"
-                into "${project.rootDir.getAbsolutePath()}/app/libs/"
-            }
-            copy {
-                from "${project.buildDir.getAbsolutePath()}/outputs/aar/${project.name}-release.aar"
-                into "${project.rootDir.getAbsolutePath()}/app/libs/"
-                rename {
-                    String fileName -> "${project.name}-release-${getCurrentTime2()}.aar"
-                }
-            }
-        }
-    }
+    transitive = false
 }
 
 repositories {
     maven {
         url "https://mvn.getui.com/nexus/content/repositories/releases/"
     }
-
-    maven { url 'https://developer.huawei.com/repo/' }
-
-    maven {
-        url 'https://maven.columbus.heytapmobi.com/repository/releases/'
-        credentials {
-            username 'nexus'
-            password 'c0b08da17e3ec36c3870fed674a0bcb36abc2e23'
-        }
-    }
-    maven {
-        url 'https://developer.hihonor.com/repo/'
-    }
 }
-
-
-repositories {
-    maven {
-        url "https://mvn.getui.com/nexus/content/repositories/releases/"
-    }
-
-    maven { url 'https://developer.huawei.com/repo/' }
-
-    maven {
-        url 'https://maven.columbus.heytapmobi.com/repository/releases/'
-        credentials {
-            username 'nexus'
-            password 'c0b08da17e3ec36c3870fed674a0bcb36abc2e23'
-        }
-    }
-}
-
 dependencies {
     implementation "androidx.exifinterface:exifinterface:1.1.0"
 
@@ -179,36 +95,10 @@ dependencies {
     api 'com.google.android.material:material:1.0.0'
 
     compileOnly("com.tencent.luggage:wxa-standalone-open-runtime-SaaA-plugin-sdk:$saaaSDKVersionDepend") {}
-    embed('com.getui:gtc:3.2.17.0')
-    embed 'com.getui:gtsdk:3.3.8.0'
-
-    //implementation(name: 'gtc-3.2.17.0', ext: 'aar')
-//    embed(name: 'gtsdk-3.3.7.16', ext: 'aar')
-
-    implementation 'com.google.code.gson:gson:2.6.2'
-    implementation 'commons-codec:commons-codec:1.6'
-    implementation 'com.android.support:support-annotations:28.0.0'
-
-    if (LOCAL_DEBUG.toBoolean()) {
-        println("getui-uts-android module -> api")
-        MULTI_VENDOR.each { vendor, value ->
-            String dep = "${value.dependency}:${value.version}"
-            println("api vendor: $vendor , ${dep} ==> ${value.enable}")
-            if (value.enable) {
-                api dep
-            }
-        }
-
-    } else {
-        println("getui-uts-android module -> embed , ${GTSDK.type}")
-        MULTI_VENDOR.each { vendor, value ->
-            String dep = "${value.dependency}:${value.version}"
-            println("embed vendor: $vendor , ${dep} ==> ${value.enable}")
-            if (value.enable) {
-                embed dep
-            }
-        }
-    }
+    embed 'com.getui:sdk-for-gj:4.4.3.15'
+    embed 'com.getui.opt:fcm:3.1.2'
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.google.firebase:firebase-analytics:20.1.0'
 
 }
 
@@ -220,7 +110,8 @@ clearDuplicatedJniLibs([
 ])
 
 project.ext.pomDeps = [
-
+        "com.google.firebase:firebase-messaging": "23.0.0",
+        "com.google.firebase:firebase-analytics": "20.1.0"
 ]
 
 

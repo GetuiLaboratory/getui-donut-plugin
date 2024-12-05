@@ -36,7 +36,7 @@ Page({
         plugin.openNotification()
       },
       fail: (e) => {
-        console.log('load plugin fail', e)
+        console.log('load plugin fail', JSON.stringify(e))
       }
     })
   },

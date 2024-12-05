@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc856683-a7e6-4544-a5cb-af627bef0e91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/SaaA_embed/buildinfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/assets/SaaA_embed/buildinfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/SaaA_embed/debug_2_wxdc6591f567d49bb6.wxapkg" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/assets/SaaA_embed/debug_2_wxdc6591f567d49bb6.wxapkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/SaaA_embed/debug_2_wxdc6591f567d49bb6.wxapkg.sign" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/assets/SaaA_embed/debug_2_wxdc6591f567d49bb6.wxapkg.sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/localAar/com/donut/plugin/wxed34e654870cba42/0.0.2/wxed34e654870cba42-0.0.2.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/localAar/com/donut/plugin/wxed34e654870cba42/0.0.2/wxed34e654870cba42-0.0.2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/miniapp.plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/miniapp.plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/config.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/processResFiles.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/java/com/donut/wxed34e654870cba42/MainProcessTask.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/java/com/donut/wxed34e654870cba42/PluginIntentService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/java/com/donut/wxed34e654870cba42/PluginManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/java/com/donut/wxed34e654870cba42/PluginPushService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/java/com/donut/wxed34e654870cba42/PushNativePluginApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/resources/META-INF/services/com.tencent.luggage.wxa.SaaA.plugin.NativePluginApplicationInterface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/plugin/src/main/resources/META-INF/services/com.tencent.luggage.wxa.SaaA.plugin.NativePluginInterface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/android/android.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/android/android.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.miniapp.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.miniapp.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2pnVj8pRvMTbbzX1fFrr0w78ZCn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc856683-a7e6-4544-a5cb-af627bef0e91" name="Changes" comment="" />
+      <created>1733401958223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733401958223</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-const miniAppPluginId = 'wxed34e654870cba42'
+const miniAppPluginId = 'wx341dde1fd385d9eb'
 
 module.exports = {
   miniAppPluginId,
