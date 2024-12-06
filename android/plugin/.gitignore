@@ -130,3 +130,8 @@ app/libs/mips/libgetuiext3.so
 app/libs/mips64/libgetuiext3.so
 app/libs/x86/libgetuiext3.so
 app/libs/x86_64/libgetuiext3.so
+
+.idea/
+.gradle/
+
+/build

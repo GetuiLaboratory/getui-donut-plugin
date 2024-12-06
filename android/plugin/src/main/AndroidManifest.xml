@@ -7,7 +7,9 @@
 
     <application>
         <service xmlns:android="http://schemas.android.com/apk/res/android"
-            android:name=".PluginPushService" />
+            android:name=".PluginPushService"
+            android:process=":pushservice"
+            />
         <service xmlns:android="http://schemas.android.com/apk/res/android"
             android:name=".PluginIntentService" />
 
