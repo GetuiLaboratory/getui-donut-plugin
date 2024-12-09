@@ -33,6 +33,9 @@ Page({
         this.setData({
           myPlugin: plugin
         })
+        var enable = plugin.areNotificationsEnabled()
+        console.log('areNotificationsEnabled'+ enable)
+        //打开通知权限的设置页面
         plugin.openNotification()
       },
       fail: (e) => {
@@ -56,7 +59,7 @@ Page({
     // myPlugin.queryTag({"sn":"ddd"})
    var id =  myPlugin.getClientid()
    console.log('plugin getClientid '+id)
-   var version = myPlugin.getVersion()
+  var version = myPlugin.getVersion()
    console.log('plugin getVersion '+version)
   //  myPlugin.turnOffPush()
   //  myPlugin.turnOnPush()
@@ -67,6 +70,10 @@ Page({
   //  myPlugin. setLocalBadge({"badge":2})
   //  myPlugin.sendFeedbackMessage({"taskid":"dddd",
   // "messageid":"ddddd",actionid:90002})
+
+  var enable =   myPlugin.areNotificationsEnabled()
+  console.log('areNotificationsEnabled'+ enable)
+  myPlugin.requestNotifyPermission()
   },
   copyLink() {
     wx.setClipboardData({

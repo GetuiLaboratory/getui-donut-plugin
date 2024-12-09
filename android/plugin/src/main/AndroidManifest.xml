@@ -12,11 +12,7 @@
 
         <service xmlns:android="http://schemas.android.com/apk/res/android"
             android:name=".PluginIntentService" />
-        <!--TODO：测试参数，上传插件时替换成自己的-->
-        <meta-data
-            android:name="PUSH_APPID"
-            android:value="djYjSlFVMf6p5YOy2OQUs8"
-            tools:replace="android:value" />
+
     </application>
 
 </manifest>

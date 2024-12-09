@@ -1,5 +1,5 @@
 {
-  "pluginVersion": "0.0.2",
+  "pluginVersion": "0.0.3",
   "debugSaaAVersion": "1.0.8",
   "devtoolsResourceUrl": "http://127.0.0.1:8001/miniappplugin/buildAndroidArchive",
   "pluginId": "wx341dde1fd385d9eb",

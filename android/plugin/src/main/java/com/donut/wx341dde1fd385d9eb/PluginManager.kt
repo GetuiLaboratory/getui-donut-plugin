@@ -1,8 +1,16 @@
 package com.donut.wx341dde1fd385d9eb
 
 import MainProcessTask
+import android.Manifest
 import android.app.Activity
+import android.app.AppOpsManager
+import android.app.NotificationManager
+import android.content.Context
 import android.content.Intent
+import android.content.pm.ApplicationInfo
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import com.igexin.sdk.IUserLoggerInterface
@@ -18,6 +26,7 @@ import com.tencent.luggage.wxa.SaaA.plugin.SyncJsApi
 import com.tencent.mm.sdk.json.JSONUtils.forEach
 import org.json.JSONArray
 import org.json.JSONObject
+import java.lang.reflect.Method
 import kotlin.reflect.full.memberProperties
 import kotlin.reflect.jvm.isAccessible
 
@@ -29,6 +38,8 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
 
     companion object {
         val GT_LOG = -1
+        const val GT_NOTIFY_ENABLE = "-2"
+        const val ACTION_NOTIFICATION_ENABLE = 10014
     }
 
     init {
@@ -83,6 +94,12 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
                     map["method"] = "debugLog"
                     map["param"] = intent.getStringExtra("log")!!
                 }
+                ACTION_NOTIFICATION_ENABLE -> {
+                    if (bundle.containsKey(PluginManager.GT_NOTIFY_ENABLE)) {
+                        map["method"] = "areNotificationsEnabled"
+                        map["param"] = bundle.getBoolean(GT_NOTIFY_ENABLE)
+                    }
+                }
                 else -> {
 
                 }
@@ -121,7 +138,40 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
                 }
             })
         com.igexin.sdk.PushManager.getInstance().initialize(activity.applicationContext);
+        areNotificationsEnabled(data, activity)
     }
+
+
+    @SyncJsApi(methodName = "areNotificationsEnabled")
+    fun areNotificationsEnabled(data: JSONObject?, activity: Activity): Boolean {
+        return areNotificationsEnabledGT(activity);
+    }
+
+    @SyncJsApi(methodName = "requestNotifyPermission")
+    fun requestNotifyPermission(data: JSONObject?, activity: Activity) {
+        val callback = this.callback;
+        this.requestPermission(
+            activity,
+            arrayOf(Manifest.permission.POST_NOTIFICATIONS)
+        ) { permissions, grantResults ->
+            if (permissions.contains(Manifest.permission.POST_NOTIFICATIONS) && grantResults != null && grantResults.size > 0
+                && grantResults[0] == PackageManager.PERMISSION_GRANTED
+            ) {
+                val intent = Intent()
+                val bundle = Bundle()
+                bundle.putInt(PushConsts.CMD_ACTION, ACTION_NOTIFICATION_ENABLE)
+                bundle.putBoolean(PluginManager.GT_NOTIFY_ENABLE, true)
+                intent.putExtras(bundle)
+                callback(intent)
+            } else {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    Log.d(TAG, "requestPermissions")
+                    activity.requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1);
+                }
+            }
+        }
+    }
+
 
     @SyncJsApi(methodName = "turnOnPush")
     fun turnOnPush(data: JSONObject?, activity: Activity) {
@@ -212,10 +262,7 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
         );
     }
 
-    //    @SyncJsApi(methodName = "setDebugLogger")
-//    fun setDebugLogger(loggerInterface: IUserLoggerInterface, activity: Activity) {
-//        PushManager.getInstance().setDebugLogger(activity.applicationContext, loggerInterface);
-//    }
+
 
     @SyncJsApi(methodName = "setLocalBadge")
     fun setBadgeNum(obj: JSONObject, activity: Activity) {
@@ -224,7 +271,7 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
 
     @SyncJsApi(methodName = "openNotification")
     fun openNotification(obj: JSONObject?, activity: Activity) {
-//        PushManager.getInstance().openNotification(activity.applicationContext);
+        openNotification(activity.applicationContext)
     }
 
     fun toMap(bean: Any): Map<String, Any?> {
@@ -251,5 +298,66 @@ class PluginManager : NativePluginBase(), NativePluginInterface {
         return hashMap
     }
 
+    fun areNotificationsEnabledGT(context: Context): Boolean {
+        try {
+            val CHECK_OP_NO_THROW = "checkOpNoThrow"
+            val OP_POST_NOTIFICATION = "OP_POST_NOTIFICATION"
+            if (Build.VERSION.SDK_INT >= 24) {
+                val mNotificationManager =
+                    context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+                val mtd: Method =
+                    NotificationManager::class.java.getDeclaredMethod("areNotificationsEnabled")
+                return mtd.invoke(mNotificationManager) as Boolean
+            } else if (Build.VERSION.SDK_INT >= 19) {
+                val appOps = context.getSystemService(Context.APP_OPS_SERVICE) as AppOpsManager
+                val appInfo: ApplicationInfo = context.applicationInfo
+                val pkg: String = context.applicationContext.packageName
+                val uid: Int = appInfo.uid
+                val appOpsClass = Class.forName(AppOpsManager::class.java.name)
+                val checkOpNoThrowMethod: Method = appOpsClass.getMethod(
+                    CHECK_OP_NO_THROW,
+                    Int::class.javaPrimitiveType,
+                    Int::class.javaPrimitiveType,
+                    String::class.java
+                )
+                val opPostNotificationValue = appOpsClass.getDeclaredField(OP_POST_NOTIFICATION)
+                val value = opPostNotificationValue.get(Int::class.javaPrimitiveType) as Int
+                return checkOpNoThrowMethod.invoke(
+                    appOps,
+                    value,
+                    uid,
+                    pkg
+                ) as Int == AppOpsManager.MODE_ALLOWED
+            }
+        } catch (e: Throwable) {
+            Log.e(TAG, "Error checking notifications enabled", e)
+        }
 
+        return true
+    }
+
+    fun openNotification(context: Context) {
+        try {
+            val intent = Intent()
+            if (Build.VERSION.SDK_INT >= 26) {
+                intent.action = "android.settings.APP_NOTIFICATION_SETTINGS"
+                intent.putExtra("android.provider.extra.APP_PACKAGE", context.packageName)
+                intent.putExtra("android.provider.extra.CHANNEL_ID", context.applicationInfo.uid)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            } else if (Build.VERSION.SDK_INT >= 21) {
+                intent.action = "android.settings.APP_NOTIFICATION_SETTINGS"
+                intent.putExtra("app_package", context.packageName)
+                intent.putExtra("app_uid", context.applicationInfo.uid)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            } else {
+                intent.action = "android.settings.APPLICATION_DETAILS_SETTINGS"
+                val var2 = Uri.fromParts("package", context.packageName, null as String?)
+                intent.data = var2
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            }
+            context.startActivity(intent)
+        } catch (var3: Throwable) {
+            var3.printStackTrace()
+        }
+    }
 }
