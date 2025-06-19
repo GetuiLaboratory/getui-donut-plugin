@@ -40,7 +40,7 @@
 ## iOS 使用说明：
 插件桥接了原生SDK API，原生SDK API具体说明可参考[官网文档中心 iOS API](https://docs.getui.com/getui/mobile/ios/api/)
 
-### 插件js api说明：
+## 插件js api说明：
 ```js
 usage() { 
 
