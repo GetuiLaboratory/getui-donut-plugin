@@ -51,8 +51,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		06607A07BBB603FF4C190C0693130A44 /* Pods-wxed34e654870cba42-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2DAD021247EA953A616CF56973A9DB /* Pods-wxed34e654870cba42-dummy.m */; };
-		AA546927155D7FAE91089704CBD3B33B /* Pods-wxed34e654870cba42-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A8F679B4C9362FF3CB4901B7503F1B /* Pods-wxed34e654870cba42-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3936CD18EFC578D1AEE57099A1800975 /* Pods-wxed34e654870cba42-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A8F679B4C9362FF3CB4901B7503F1B /* Pods-wxed34e654870cba42-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7196FB1814BE5283E378C58322FCC455 /* Pods-wxed34e654870cba42-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2DAD021247EA953A616CF56973A9DB /* Pods-wxed34e654870cba42-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,33 +63,33 @@
 			remoteGlobalIDString = A0DC60C966312FA79A138A075D99BB51;
 			remoteInfo = GTSDK;
 		};
-		0B110C0EBCA8C9CE1B514408C2136C3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0DC60C966312FA79A138A075D99BB51;
-			remoteInfo = GTSDK;
-		};
-		2CE4EB7F3E6E84E3A3D01FB5235B0BB5 /* PBXContainerItemProxy */ = {
+		117EF9055A29B059F853EEB50249E1D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 997E783A70C18DC9BA830488608C03AA;
 			remoteInfo = GTCommonSDK;
 		};
-		371E4F063A4907E9081F77EE9C97C02E /* PBXContainerItemProxy */ = {
+		20E5CC0DE22580384CE35605B962E650 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8194323886ECAF7E912EFDAFC84017AA;
 			remoteInfo = ZXSDK;
 		};
-		7EABF68741C8A54293C74F5A1034E9AE /* PBXContainerItemProxy */ = {
+		38E15FEFF2F261C8EB8572FAAF430B72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0476A22E99F1ED8272E989FD02B92D6E;
 			remoteInfo = MyPlugin;
+		};
+		938B5E2753A6B4CF272C9FACE58DF891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0DC60C966312FA79A138A075D99BB51;
+			remoteInfo = GTSDK;
 		};
 		9DE4DF5F6C62E1D3029D02948EAC3668 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -134,7 +134,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3483F5BB5C9152B862B7C62A4F9D2C0 /* Frameworks */ = {
+		BEFC5B8EAE6085217D74379695C6F6E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,11 +329,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		95F4394797A3A50BB47A3B9AF8BB1023 /* Headers */ = {
+		0FA95682EB414EA1385670C28C2DE018 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA546927155D7FAE91089704CBD3B33B /* Pods-wxed34e654870cba42-umbrella.h in Headers */,
+				3936CD18EFC578D1AEE57099A1800975 /* Pods-wxed34e654870cba42-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,19 +342,19 @@
 /* Begin PBXNativeTarget section */
 		AEABD09CC3DA6B0A685B27F705CF1C0E /* Pods-wxed34e654870cba42 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4809491A8BE3310AB773C730BC86EA7 /* Build configuration list for PBXNativeTarget "Pods-wxed34e654870cba42" */;
+			buildConfigurationList = 287669E5E4BCC4F8CDA90C817086B2DA /* Build configuration list for PBXNativeTarget "Pods-wxed34e654870cba42" */;
 			buildPhases = (
-				95F4394797A3A50BB47A3B9AF8BB1023 /* Headers */,
-				238C757434FD138845F2867019CBA6E9 /* Sources */,
-				C3483F5BB5C9152B862B7C62A4F9D2C0 /* Frameworks */,
+				0FA95682EB414EA1385670C28C2DE018 /* Headers */,
+				F8AB878A550A6BC1B70E01995D77ACAE /* Sources */,
+				BEFC5B8EAE6085217D74379695C6F6E0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5D943305EE05FF093A9D30E12259C87 /* PBXTargetDependency */,
-				8F27B7F0B3B37767D0E27C01A2AED2F7 /* PBXTargetDependency */,
-				F62C23883857F42CABEB8E954B86B28F /* PBXTargetDependency */,
-				D9B6F16C4FDA2E2805B346B6C662D89C /* PBXTargetDependency */,
+				F12C7D1EBD021D53EF879B188E2DAD5B /* PBXTargetDependency */,
+				0135D707EE104911D1003999D2908270 /* PBXTargetDependency */,
+				FAC0E265FB769DE1FD833E8223625708 /* PBXTargetDependency */,
+				DAD37F7C0426FCDAC74D78E472060B12 /* PBXTargetDependency */,
 			);
 			name = "Pods-wxed34e654870cba42";
 			productName = "Pods-wxed34e654870cba42";
@@ -367,8 +367,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -379,6 +379,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = BC5DB8D558D20FCB311892E95CF8B8FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,28 +432,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		238C757434FD138845F2867019CBA6E9 /* Sources */ = {
+		F8AB878A550A6BC1B70E01995D77ACAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06607A07BBB603FF4C190C0693130A44 /* Pods-wxed34e654870cba42-dummy.m in Sources */,
+				7196FB1814BE5283E378C58322FCC455 /* Pods-wxed34e654870cba42-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0135D707EE104911D1003999D2908270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTSDK;
+			target = A0DC60C966312FA79A138A075D99BB51 /* GTSDK */;
+			targetProxy = 938B5E2753A6B4CF272C9FACE58DF891 /* PBXContainerItemProxy */;
+		};
 		57C83629487F572263C0849B216A2117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTSDK;
 			target = A0DC60C966312FA79A138A075D99BB51 /* GTSDK */;
 			targetProxy = 04EF100A4DA74CF539C3790C06A60798 /* PBXContainerItemProxy */;
-		};
-		8F27B7F0B3B37767D0E27C01A2AED2F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GTSDK;
-			target = A0DC60C966312FA79A138A075D99BB51 /* GTSDK */;
-			targetProxy = 0B110C0EBCA8C9CE1B514408C2136C3D /* PBXContainerItemProxy */;
 		};
 		BFBE31D7BB7CE8CD59E197F869DE4B08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -459,11 +461,17 @@
 			target = 8194323886ECAF7E912EFDAFC84017AA /* ZXSDK */;
 			targetProxy = F1CE49E8FED47D61819BD73DDF7F66ED /* PBXContainerItemProxy */;
 		};
-		D9B6F16C4FDA2E2805B346B6C662D89C /* PBXTargetDependency */ = {
+		DAD37F7C0426FCDAC74D78E472060B12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZXSDK;
 			target = 8194323886ECAF7E912EFDAFC84017AA /* ZXSDK */;
-			targetProxy = 371E4F063A4907E9081F77EE9C97C02E /* PBXContainerItemProxy */;
+			targetProxy = 20E5CC0DE22580384CE35605B962E650 /* PBXContainerItemProxy */;
+		};
+		F12C7D1EBD021D53EF879B188E2DAD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCommonSDK;
+			target = 997E783A70C18DC9BA830488608C03AA /* GTCommonSDK */;
+			targetProxy = 117EF9055A29B059F853EEB50249E1D5 /* PBXContainerItemProxy */;
 		};
 		F4316C499AD04B17C4ADBE887219A5B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -471,27 +479,22 @@
 			target = 997E783A70C18DC9BA830488608C03AA /* GTCommonSDK */;
 			targetProxy = 9DE4DF5F6C62E1D3029D02948EAC3668 /* PBXContainerItemProxy */;
 		};
-		F5D943305EE05FF093A9D30E12259C87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GTCommonSDK;
-			target = 997E783A70C18DC9BA830488608C03AA /* GTCommonSDK */;
-			targetProxy = 2CE4EB7F3E6E84E3A3D01FB5235B0BB5 /* PBXContainerItemProxy */;
-		};
-		F62C23883857F42CABEB8E954B86B28F /* PBXTargetDependency */ = {
+		FAC0E265FB769DE1FD833E8223625708 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyPlugin;
 			target = 0476A22E99F1ED8272E989FD02B92D6E /* MyPlugin */;
-			targetProxy = 7EABF68741C8A54293C74F5A1034E9AE /* PBXContainerItemProxy */;
+			targetProxy = 38E15FEFF2F261C8EB8572FAAF430B72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2994E2C6935FE00084DCCFD5082C2C5E /* Release */ = {
+		081567CE9CD56A99A66C0B763397A722 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CF08AF6B5E968E1330EEC1F36D3CFA0 /* MyPlugin.release.xcconfig */;
+			baseConfigurationReference = 711C6FB8E57471A457E3F8E23C801338 /* GTCommonSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,12 +506,38 @@
 			};
 			name = Release;
 		};
-		49E83A624F1BEA4BC20DCB5EE449821D /* Debug */ = {
+		38D6D92C7DB6D83F78D38F536BEAAC63 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A00CAB05FCC1F9BD8FE13A0620AE1AF /* MyPlugin.debug.xcconfig */;
+			baseConfigurationReference = 00BE27273517B9B595C392E91409B3E8 /* Pods-wxed34e654870cba42.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wxed34e654870cba42/Pods-wxed34e654870cba42.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A22BCF69B28496DCBE2EF7B42573370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205EFA8DB4230AFC8576B370A51EB381 /* GTSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -519,12 +548,13 @@
 			};
 			name = Debug;
 		};
-		6D8D8CF66D84A19D1B4A705DE7D284CF /* Release */ = {
+		64D30DF7B903BACB769711A7521475FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A6336D4D044C95FB40F4B2C621AD092 /* GTSDK.release.xcconfig */;
+			baseConfigurationReference = 2F4E2E56978DBA0B8FA263CB57016E0A /* ZXSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,11 +562,27 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		70044D956B493A3D5495C6A0917880DA /* Debug */ = {
+		68F5B3954D22C3AE996F089D0ACE587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C6D5EEF9C0BAAF4FAD7E970A58FB4C /* GTCommonSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EFC1E465F8A048D24E0232F33BB87FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62FC92F28054C350040054A169E69B78 /* Pods-wxed34e654870cba42.debug.xcconfig */;
 			buildSettings = {
@@ -545,6 +591,8 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-wxed34e654870cba42/Pods-wxed34e654870cba42.modulemap";
@@ -558,12 +606,13 @@
 			};
 			name = Debug;
 		};
-		8BD44D6DD09949D8E86E835F72B2EA03 /* Debug */ = {
+		79088E1C18167A3D65A31AB23FDE0715 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C6D5EEF9C0BAAF4FAD7E970A58FB4C /* GTCommonSDK.debug.xcconfig */;
+			baseConfigurationReference = 4CF08AF6B5E968E1330EEC1F36D3CFA0 /* MyPlugin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,24 +620,9 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
-		};
-		8FF0C18853667C3BBDB3AAF5E9A1E26D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F4E2E56978DBA0B8FA263CB57016E0A /* ZXSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
+			name = Release;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -651,62 +685,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		91A6FF528121D0112E7568D71F4C70F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00BE27273517B9B595C392E91409B3E8 /* Pods-wxed34e654870cba42.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-wxed34e654870cba42/Pods-wxed34e654870cba42.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		97538F88F663EAEEAC6895FA49D9DB26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 711C6FB8E57471A457E3F8E23C801338 /* GTCommonSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9828307CC82AF81C82C065A6FEAD30C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 205EFA8DB4230AFC8576B370A51EB381 /* GTSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -774,12 +752,13 @@
 			};
 			name = Debug;
 		};
-		CB94A0E619E90373C1C2053AC8FAB5ED /* Release */ = {
+		BF57B17A35EAEC316B185D34991394E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC71A051FB126F5EBEC8C47CA67DC5DE /* ZXSDK.release.xcconfig */;
+			baseConfigurationReference = 1A6336D4D044C95FB40F4B2C621AD092 /* GTSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -791,14 +770,58 @@
 			};
 			name = Release;
 		};
+		EB11E133F5352F3A156CA24645F2103E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC71A051FB126F5EBEC8C47CA67DC5DE /* ZXSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC59EE992491F0001A4AA6F1DF77BBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A00CAB05FCC1F9BD8FE13A0620AE1AF /* MyPlugin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		254A3D9A2F939386353013917B236221 /* Build configuration list for PBXAggregateTarget "GTCommonSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BD44D6DD09949D8E86E835F72B2EA03 /* Debug */,
-				97538F88F663EAEEAC6895FA49D9DB26 /* Release */,
+				68F5B3954D22C3AE996F089D0ACE587F /* Debug */,
+				081567CE9CD56A99A66C0B763397A722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287669E5E4BCC4F8CDA90C817086B2DA /* Build configuration list for PBXNativeTarget "Pods-wxed34e654870cba42" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFC1E465F8A048D24E0232F33BB87FC /* Debug */,
+				38D6D92C7DB6D83F78D38F536BEAAC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -806,8 +829,8 @@
 		30C94E4118FE25666D01CE016544D23A /* Build configuration list for PBXAggregateTarget "MyPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49E83A624F1BEA4BC20DCB5EE449821D /* Debug */,
-				2994E2C6935FE00084DCCFD5082C2C5E /* Release */,
+				EC59EE992491F0001A4AA6F1DF77BBE0 /* Debug */,
+				79088E1C18167A3D65A31AB23FDE0715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -824,17 +847,8 @@
 		4CD3D05CE6D490D9C78E73262F2D0E70 /* Build configuration list for PBXAggregateTarget "GTSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9828307CC82AF81C82C065A6FEAD30C5 /* Debug */,
-				6D8D8CF66D84A19D1B4A705DE7D284CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B4809491A8BE3310AB773C730BC86EA7 /* Build configuration list for PBXNativeTarget "Pods-wxed34e654870cba42" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				70044D956B493A3D5495C6A0917880DA /* Debug */,
-				91A6FF528121D0112E7568D71F4C70F0 /* Release */,
+				4A22BCF69B28496DCBE2EF7B42573370 /* Debug */,
+				BF57B17A35EAEC316B185D34991394E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -842,8 +856,8 @@
 		CB4E209B1CDED1D1EED991A55A8D5A32 /* Build configuration list for PBXAggregateTarget "ZXSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FF0C18853667C3BBDB3AAF5E9A1E26D /* Debug */,
-				CB94A0E619E90373C1C2053AC8FAB5ED /* Release */,
+				64D30DF7B903BACB769711A7521475FB /* Debug */,
+				EB11E133F5352F3A156CA24645F2103E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

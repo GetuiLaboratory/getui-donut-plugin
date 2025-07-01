@@ -1,5 +1,5 @@
 {
-  "toolkitVersion": "0.10.0",
+  "toolkitVersion": "0.11.0",
   "sdkVersion": "1.4.10",
   "enableVConsole": "open",
   "appMenuEnable": true,

@@ -37,6 +37,7 @@ WEAPP_EXPORT_PLUGIN_METHOD_SYNC(setPushMode, @selector(setPushMode:))
 WEAPP_EXPORT_PLUGIN_METHOD_SYNC(registerActivityToken, @selector(registerActivityToken:))
 WEAPP_EXPORT_PLUGIN_METHOD_SYNC(registerPushToStartToken, @selector(registerPushToStartToken:))
 WEAPP_EXPORT_PLUGIN_METHOD_SYNC(getVersion, @selector(getVersion))
+WEAPP_EXPORT_PLUGIN_METHOD_SYNC(launchNotification, @selector(getLaunchNotification))
 
 - (id)startSdk:(NSDictionary *)param {
     NSLog(@"GTSDK>>>startSdk appId:%@ appKey:%@ appSecret:%@",param[@"appId"],param[@"appKey"],param[@"appSecret"]);
@@ -54,6 +55,11 @@ WEAPP_EXPORT_PLUGIN_METHOD_SYNC(getVersion, @selector(getVersion))
     NSLog(@"runBackgroundEnable %@",@(value));
     [GeTuiSdk runBackgroundEnable:value];
     return @(1);
+}
+
+- (id)getLaunchNotification {
+    NSLog(@"GTSDK>>>getLaunchNotification %@",_launchOptions);
+    return _launchOptions ? _launchOptions : @{};
 }
 
 - (id)bindAlias:(NSDictionary *)param {

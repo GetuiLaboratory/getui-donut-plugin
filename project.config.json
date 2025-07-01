@@ -23,7 +23,8 @@
     },
     "srcMiniprogramRoot": "miniprogram/",
     "simulatorPluginLibVersion": {
-        "wxextd2e17127608c3": "2.27.3"
+        "wxextd2e17127608c3": "2.27.3",
+        "wxext14566970e7e9f62": "3.2.5-61"
     },
     "libVersion": "2.27.3",
     "packOptions": {
